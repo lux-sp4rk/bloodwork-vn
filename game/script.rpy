@@ -21,11 +21,15 @@ define n = Character(None, kind=nvl)
 ################################################################################
 
 ## Track player choices
+
 default told_truth_about_crow = False
+
 default sedated_tommy = False
+
 default stayed_awake = False
 
 ## Condition tracking
+
 default rachel_exhaustion = 0
 default tommy_trust = 50
 
