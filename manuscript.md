@@ -6,7 +6,7 @@ Rachel screamed as the crow's broken body tumbled onto her laptop, its wings spl
 
 For a moment, the glowing red eyes of the NinjaMaster seemed to reflect in the bird's unseeing gaze.
 
-Later that morning, after having stiffened her nerves with a double serving of her favorite cocktail: vodka with a lot of ice, a little bit of lemonade, and a side of prozac, Rachel carefully carried the crow's lifeless body into the backyard. The sun was already high, casting long shadows across the dew-kissed grass. She found a small spade in the shed and began to dig a shallow grave beneath the old oak tree. The earth was soft and damp, and the rhythmic scrape of the spade against the soil was the only sound breaking the silence.
+Later that morning, after having stiffened her nerves with a double serving of her favorite cocktail: vodka with a lot of ice, a little bit of lemonade (with a side of prozac), Rachel carefully carried the crow's lifeless body into the backyard. The sun was already high, casting long shadows across the dew-kissed grass. She found a small spade in the shed and began to dig a shallow grave beneath the old oak tree. The earth was soft and damp, and the rhythmic scrape of the spade against the soil was the only sound breaking the silence.
 
 "Mommy, what are you doing?"
 
@@ -28,7 +28,7 @@ Later, while researching bird behaviour on the couch, this time mixing her red b
 
 The image of the crow shattering the window was still fresh in her mind, a vivid and disturbing replay. Maybe it was just a crazy bird. Birds flew into windows all the time—reflection confusion, territorial aggression, migration disorientation. But crows are smart and careful. They don't just kamikaze through windows. Maybe it ate fermented berries and flew drunk. Or maybe it was something else.
 
-She usually slept in the living room because she hated her bed now—it felt too big, too empty—so this was where she ended most nights. Reading while the TV was on, loving the feeling of the alcohol mixed with the pills her doctor prescribed for her anxiety. But, she told herself, she wasn’t addicted or anything. She had only just started. It would be easy to quit if it really became a problem. It was just for now while she got her bearings. She wasn’t going to let it get so bad that it would hurt her son. Like it did that time at the university.
+She usually slept in the living room because she hated her bed now—it felt too big, too empty—so this was where she ended most nights. Reading while the TV was on, loving the feeling of the alcohol mixed with the pills her doctor prescribed for her anxiety. But, she told herself, she wasn’t hooked or anything. Not really.She had only just started. It would be easy to quit if it really became a problem. It was just for now while she got her bearings. She wasn’t going to let it get so bad that it would hurt her son. She wasn't going to let it get out of control like it did at the university.
 
 The fluorescent lights of the university lab buzzed overhead, casting a sterile glow on the microscopes and specimen slides. Rachel took another swig from the water bottle she'd filled with vodka that morning. She was supposed to be prepping slides for the afternoon lab session, but her hands were too unsteady.
 
