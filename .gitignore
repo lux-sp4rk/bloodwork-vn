@@ -221,4 +221,6 @@ game/cache/
 game/saves/
 log.txt
 traceback.txt
-vendor/  # Ren'Py SDK - should be installed separately
+
+# Ren'Py SDK - should be installed separately
+vendor/renpy-*/
