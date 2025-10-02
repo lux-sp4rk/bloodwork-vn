@@ -6,78 +6,6 @@ init offset = -1
 
 
 ################################################################################
-## Styles
-################################################################################
-
-style default:
-    properties gui.text_properties()
-    language gui.language
-
-style input:
-    properties gui.text_properties("input", accent=True)
-    adjust_spacing False
-
-style hyperlink_text:
-    properties gui.text_properties("hyperlink", accent=True)
-    hover_underline True
-
-style gui_text:
-    properties gui.text_properties("interface")
-
-
-style button:
-    properties gui.button_properties("button")
-
-style button_text:
-    properties gui.button_text_properties("button")
-
-
-style label_text:
-    properties gui.text_properties("label", accent=True)
-    size gui.label_text_size
-
-
-style prompt_text:
-    properties gui.text_properties("prompt")
-
-
-style bar:
-    ysize gui.bar_size
-    left_bar Frame("gui/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
-    right_bar Frame("gui/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
-
-style vbar:
-    xsize gui.bar_size
-    top_bar Frame("gui/bar/top.png", gui.vbar_borders, tile=gui.bar_tile)
-    bottom_bar Frame("gui/bar/bottom.png", gui.vbar_borders, tile=gui.bar_tile)
-
-style scrollbar:
-    ysize gui.scrollbar_size
-    base_bar Frame("gui/scrollbar/horizontal_[prefix_]bar.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
-    thumb Frame("gui/scrollbar/horizontal_[prefix_]thumb.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
-
-style vscrollbar:
-    xsize gui.scrollbar_size
-    base_bar Frame("gui/scrollbar/vertical_[prefix_]bar.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
-    thumb Frame("gui/scrollbar/vertical_[prefix_]thumb.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
-
-style slider:
-    ysize gui.slider_size
-    base_bar Frame("gui/slider/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
-    thumb "gui/slider/horizontal_[prefix_]thumb.png"
-
-style vslider:
-    xsize gui.slider_size
-    base_bar Frame("gui/slider/vertical_[prefix_]bar.png", gui.vslider_borders, tile=gui.slider_tile)
-    thumb "gui/slider/vertical_[prefix_]thumb.png"
-
-
-style frame:
-    padding gui.frame_borders.padding
-    background Frame("gui/frame.png", gui.frame_borders, tile=gui.frame_tile)
-
-
-################################################################################
 ## GUI Configuration Variables
 ################################################################################
 
@@ -450,6 +378,12 @@ define gui.nvl_text_xalign = 0.0
 define gui.nvl_button_xpos = 450
 define gui.nvl_button_xalign = 0.0
 
+## The position, width, and alignment of NVL-mode thought text (same as dialogue).
+define gui.nvl_thought_xpos = 450
+define gui.nvl_thought_ypos = 8
+define gui.nvl_thought_width = 590
+define gui.nvl_thought_xalign = 0.0
+
 
 ## Localization ################################################################
 
@@ -458,6 +392,127 @@ define gui.nvl_button_xalign = 0.0
 ## www.renpy.org/doc/html/style_properties.html#style-property-language
 
 define gui.language = "unicode"
+
+
+################################################################################
+## GUI Helper Functions
+################################################################################
+
+init python:
+
+    def gui_text_properties(kind=None, accent=False):
+        """Returns a dictionary of text properties for the given kind of text."""
+        props = {}
+        props["font"] = gui.text_font
+        props["size"] = gui.text_size
+        props["color"] = gui.text_color
+
+        if kind == "interface":
+            props["font"] = gui.interface_text_font
+            props["size"] = gui.interface_text_size
+            props["color"] = gui.interface_text_color
+        elif kind == "button":
+            props["font"] = gui.button_text_font
+            props["size"] = gui.button_text_size
+        elif kind == "label":
+            props["font"] = gui.interface_text_font
+        elif kind == "prompt":
+            props["font"] = gui.interface_text_font
+            props["size"] = gui.interface_text_size
+        elif kind == "input":
+            props["font"] = gui.text_font
+            props["size"] = gui.text_size
+        elif kind == "hyperlink":
+            props["font"] = gui.text_font
+            props["size"] = gui.text_size
+
+        return props
+
+    gui.text_properties = gui_text_properties
+
+    def gui_button_properties(kind):
+        """Returns a dictionary of button properties for the given kind of button."""
+        return {}
+
+    gui.button_properties = gui_button_properties
+
+    def gui_button_text_properties(kind):
+        """Returns a dictionary of button text properties for the given kind of button."""
+        return {"font": gui.button_text_font, "size": gui.button_text_size}
+
+    gui.button_text_properties = gui_button_text_properties
+
+
+################################################################################
+## Styles
+################################################################################
+
+style default:
+    properties gui.text_properties()
+    language gui.language
+
+style input:
+    properties gui.text_properties("input", accent=True)
+    adjust_spacing False
+
+style hyperlink_text:
+    properties gui.text_properties("hyperlink", accent=True)
+    hover_underline True
+
+style gui_text:
+    properties gui.text_properties("interface")
+
+
+style button:
+    properties gui.button_properties("button")
+
+style button_text:
+    properties gui.button_text_properties("button")
+
+
+style label_text:
+    properties gui.text_properties("label", accent=True)
+    size gui.label_text_size
+
+
+style prompt_text:
+    properties gui.text_properties("prompt")
+
+
+style bar:
+    ysize gui.bar_size
+    left_bar Frame("gui/bar/left.png", gui.bar_borders, tile=gui.bar_tile)
+    right_bar Frame("gui/bar/right.png", gui.bar_borders, tile=gui.bar_tile)
+
+style vbar:
+    xsize gui.bar_size
+    top_bar Frame("gui/bar/top.png", gui.vbar_borders, tile=gui.bar_tile)
+    bottom_bar Frame("gui/bar/bottom.png", gui.vbar_borders, tile=gui.bar_tile)
+
+style scrollbar:
+    ysize gui.scrollbar_size
+    base_bar Frame("gui/scrollbar/horizontal_[prefix_]bar.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
+    thumb Frame("gui/scrollbar/horizontal_[prefix_]thumb.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
+
+style vscrollbar:
+    xsize gui.scrollbar_size
+    base_bar Frame("gui/scrollbar/vertical_[prefix_]bar.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
+    thumb Frame("gui/scrollbar/vertical_[prefix_]thumb.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
+
+style slider:
+    ysize gui.slider_size
+    base_bar Frame("gui/slider/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
+    thumb "gui/slider/horizontal_[prefix_]thumb.png"
+
+style vslider:
+    xsize gui.slider_size
+    base_bar Frame("gui/slider/vertical_[prefix_]bar.png", gui.vslider_borders, tile=gui.slider_tile)
+    thumb "gui/slider/vertical_[prefix_]thumb.png"
+
+
+style frame:
+    padding gui.frame_borders.padding
+    background Frame("gui/frame.png", gui.frame_borders, tile=gui.frame_tile)
 
 
 ################################################################################

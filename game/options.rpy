@@ -155,7 +155,7 @@ define config.save_directory = "BloodAndServos-1234567890"
 ##
 ## The icon displayed on the taskbar or dock.
 
-define config.window_icon = "gui/window_icon.png"
+# define config.window_icon = "gui/window_icon.png"  # Disabled - placeholder icon not yet created
 
 
 ## Build configuration #########################################################

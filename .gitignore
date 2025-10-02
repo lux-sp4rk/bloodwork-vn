@@ -214,3 +214,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Ren'Py
+game/cache/
+game/saves/
+log.txt
+traceback.txt
