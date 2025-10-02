@@ -1,4 +1,4 @@
-# Digital Death Dolls (Manuscript)
+# Blood and Servos (Manuscript)
 
 Rachel clicked **"Place Order"** on the NinjaMaster 9000 and its companion opponent, Viking Warrior. Tommy would finally have the AI battle toys he’d been begging for. She was about to close the website when the confirmation email dinged in her inbox. At that exact moment, something struck her bedroom window, glass exploding inward.
 
@@ -146,21 +146,26 @@ She limped to Tommy, still sleeping soundly on the couch. His tiny chest rose an
 
 Rachel forced herself into the bathroom to clean her wounds. She winced as she disinfected the gash on her hand, gritting her teeth to keep from crying out. She poured more vodka over her injured foot, the sting bringing tears to her eyes. Wrapping her foot in a clean towel, she secured it tightly with duct tape. It wasn’t perfect, but it would have to do.
 
-Her nerves frayed, she stumbled to the balcony, desperate for a cigarette. The cool early morning air was a welcome relief from the suffocating smell of smoke and melted plastic inside. Leaning against the railing, she took a long drag, the nicotine hitting her system like a lifeline. For a moment, she felt the weight of the night ease, just slightly.
+Her nerves frayed, she stumbled to the living room window, desperate for a cigarette. She cracked it open, letting the cool early morning air wash over her face—a welcome relief from the suffocating smell of smoke and melted plastic inside. Leaning against the frame, she took a long drag, the nicotine hitting her system like a lifeline. For a moment, she felt the weight of the night ease, just slightly.
 
 A faint clicking sound jolted her from her thoughts. Her blood ran cold.
 
-The Ninja stood in the doorway, its decapitated head dangling loosely by a few exposed wires, its movements jerky and unnatural. One of its arms was missing, and its legs dragged slightly as it walked, but its glowing eyes burned with relentless fury.
+The Ninja stood across the room, its decapitated head dangling loosely by a few exposed wires, its movements jerky and unnatural. One of its arms was missing, and its legs dragged slightly as it walked, but its glowing eyes burned with relentless fury.
 
 It staggered forward, dragging its broken body with mechanical resolve. In its remaining hand, it clutched a shard of glass—jagged and glinting in the dim light.
 
-The Ninja lunged. Rachel dodged, narrowly avoiding the shard of glass as it slashed through the air. Her injured foot slipped on the slick balcony tiles, and she gripped the railing for balance. The Ninja staggered but quickly turned back toward her, relentless.
+The Ninja lunged. Rachel dodged, narrowly avoiding the shard of glass as it slashed through the air. Her injured foot slipped on the blood-slicked floor, and she stumbled backward toward the window. The Ninja staggered but quickly turned back toward her, relentless.
 
-She swung wildly, trying to knock the toy away, but her strength was fading. The Ninja climbed onto the balcony railing, its glowing eyes fixed on her. With a guttural scream, Rachel lunged at it, grabbing its tiny body. They struggled, her bloodied hands slipping on its slick plastic. The Ninja stabbed at her arm, the glass shard cutting deep, but she refused to let go.
+She swung wildly, trying to knock the toy away, but her strength was fading. The Ninja leaped at her chest, its glowing eyes fixed on her throat. With a guttural scream, Rachel grabbed its tiny body with both hands. They struggled, her bloodied hands slipping on its slick plastic. The Ninja stabbed at her face, the glass shard cutting deep across her cheek, but she refused to let go.
 
-The struggle tipped them both over the edge.
+Rachel's back hit the window frame. The Ninja twisted violently in her grip, servos whining. She lost her balance.
+
+Glass exploded outward as they crashed through the window together, Rachel's body tumbling through the air, the Ninja still clutched in her hands. For a moment, the glowing red eyes seemed to dim, as if satisfied.
+
+Then the pavement rushed up to meet them.
 
 ## Aftermath
 
-Tommy woke to the sound of sirens. He sat up groggily, rubbing his eyes. The apartment was a disaster—broken furniture, bloodstains on the floor, and shattered glass everywhere. He wandered to the balcony, where the cool night air rushed in through the open door.
-Below, police cars and an ambulance crowded the street. Paramedics worked frantically around a figure lying motionless on the pavement. Beside her, the shattered remains of the Viking were scattered across the concrete.
+Tommy woke to the sound of sirens. He sat up groggily, rubbing his eyes. The apartment was a disaster—broken furniture, bloodstains on the floor, and shattered glass everywhere. He wandered toward the living room window, where the cool morning air rushed in through the jagged opening.
+
+Below, police cars and an ambulance crowded the street. Paramedics worked frantically around a figure lying motionless on the pavement, surrounded by glittering shards of glass. Beside her, the shattered remains of the Ninja were scattered across the concrete, its red eyes finally dark.
