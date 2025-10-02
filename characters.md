@@ -3,6 +3,7 @@
 ## Major Characters
 
 ### Rachel
+
 - **Role**: Protagonist, mother, former paleontologist
 - **Background**: Recently widowed, former university professor specializing in paleontology
 - **Current situation**: On leave from university, struggling with substance abuse (alcohol + Xanax)
@@ -17,6 +18,7 @@
 - **Relationship to fossils/death**: Works with ancient bones, feels kinship with dead things after Ethan's death
 
 ### Tommy
+
 - **Role**: Rachel's young son (elementary school age)
 - **Physical**: Strong resemblance to his father Ethan
 - **Key traits**:
@@ -26,6 +28,7 @@
 - **Arc**: Traumatized by toy attacks, sedated by mother, orphaned by story's end
 
 ### Captain Ethan Branson (deceased)
+
 - **Role**: Rachel's late husband, Tommy's father
 - **Background**: Army captain, rose through ranks quickly, came from poor "trailer trash" background
 - **Physical**: Shorter than Rachel, commanding presence
@@ -36,17 +39,20 @@
 ## Minor Characters
 
 ### David
+
 - **Role**: Rachel's lab partner at the university
 - **Physical**: Older faculty member with gray hair and long gray beard, close to retirement
 - **Key traits**: Sympathetic, covers for Rachel's drinking, warns her she can't continue
 - **Function**: Represents the department's support and Rachel's deteriorating professional life
 
 ### The Dean
+
 - **Role**: University administrator
 - **Key traits**: Stern, observant, ultimately puts Rachel on leave
 - **Function**: Authority figure who ends Rachel's academic career despite students' attempts to cover for her
 
 ### University Students
+
 - **Role**: Rachel's students in paleontology
 - **Key traits**: Loyal, protective of popular professor, cover for her during dean's visit
 - **Function**: Show Rachel was once competent and valued before her decline
@@ -54,6 +60,7 @@
 ## Antagonists
 
 ### NinjaMaster 9000
+
 - **Type**: AI-powered battle toy
 - **Appearance**: Ninja design with glowing red eyes, plastic sword initially, later uses kitchen knife
 - **Behavior**: Attacks Tommy first, later Rachel; rebuilt itself after being thrown from window; eventually decapitated but continues fighting
