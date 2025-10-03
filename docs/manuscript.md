@@ -212,9 +212,7 @@ Below, police cars and an ambulance crowded the street. Paramedics worked franti
 
 The pavement around her was a dark pool of blood and viscera, still spreading in a slow, dark gush. Glass shards glittered everywhere, some embedded in her flesh, others scattered like confetti. The Ninja's shattered pieces lay beside her, its plastic body cracked open, oil mixing with her blood in swirling patterns.
 
-A crow lay beside her—the same one from the beginning, impossibly. Its black feathers were matted in her blood, one wing draped across her shattered ribs.
-
-There were more. Perched on the fire escape, the telephone wires, circling overhead. Most were on the ground, surrounding her body.
+A dead crow lay beside her. Its black feathers were matted in her blood, one wing draped across her shattered ribs. And there were more. They were everywhere: perched on the fire escape, the telephone wires, circling overhead. Most were on the ground, surrounding her body.
 
 They began to feed.
 
