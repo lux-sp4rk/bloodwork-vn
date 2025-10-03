@@ -219,8 +219,8 @@ __marimo__/
 # Ren'Py
 game/cache/
 game/saves/
+game/options.rpyc
 log.txt
 traceback.txt
-
 # Ren'Py SDK - should be installed separately
 vendor/renpy-*/
