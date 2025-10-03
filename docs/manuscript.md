@@ -105,7 +105,17 @@ Then, another strange sound, this one from the hallway. A faint, metallic clicki
 
 She eased off the bed, biting her lip to stifle a cry as she put weight on her injured foot. Each step left a sticky crimson print on the hardwood, the ragged exit wound reopening with every movement. The makeshift bandage on her hand was soaked crimson, dripping steadily. Snatching a lamp from the nightstand, her only weapon, she crept to the doorway, trailing blood behind her. The scene in the hallway made her blood run cold. The Ninja, a mangled horror of wires and plastic, wielded the kitchen knife with disturbing precision. The Viking, having discarded its plastic sword, now brandished a large pair of scissors.
 
-Blades flashed once, twice—then the Viking committed. It trapped the Ninja’s knife arm in the scissor jaws and snipped; cables whipped, oil misted the wall. Before the Ninja could reset, the Viking drove the scissors deep and sheared straight through its chassis. Plastic burst, wiring spilled. The Ninja collapsed in smoking pieces.
+The television flickered to life on its own, static crackling across the screen before resolving into a wrestling match. But the announcer's voice was wrong—layered, echoing, like dozens of voices speaking in unison. It sounded like wings beating against glass.
+
+"Ladies and gentlemen," the voice rasped, each word punctuated by a wet caw, "tonight's championship bout will determine who joins the flock eternal. A three-way deathmatch: Ms. America, Ragnarok the Viking, and Ninja Master Kunoichi."
+
+The camera panned across the wrestlers, but their faces kept glitching—flickering between human features and black feathers, between flesh and plastic, between life and something else. The crowd's roar sounded like a murder of crows screaming in unison.
+
+"Only one will ascend," the announcer continued, his face now transformed into that of a crow's, crackling with static and the flutter of wings. "Only one will be crowned. Whose excited?! (we are)(who wouldn't be?)(shut up! I'm trying to sleep!)(...)"
+
+Rachel stared at the screen, her blood running cold. The Viking on TV turned its head—not toward its opponents, but directly at the camera. Directly at her. Its eyes glowed red.
+
+Blades flashed once, twice—then the toy Viking committed. It trapped the Ninja’s knife arm in the scissor jaws and snipped; cables whipped, oil misted the wall. Before the Ninja could reset, the Viking drove the scissors deep and sheared straight through its chassis. Plastic burst, wiring spilled. The Ninja collapsed in smoking pieces.
 
 The Viking turned, its glowing eyes locking onto Rachel. For a moment, it paused, processing her presence. Then a faint beep broke the silence, and Rachel’s blood ran cold. She recognized the sound from the Ninja—its targeting mode.
 
@@ -128,7 +138,6 @@ Rachel hauled herself upright, pain spiking with every movement. She could barel
 Desperation fueled Rachel's thoughts as pain and an overwhelming craving for alcohol clouded her mind. With a sudden spark, she limped to the bar as quickly as she could, her fingers closing around the neck of a bottle. She took a long, burning swig, the liquid fire momentarily dulling her agony.
 
 She hobbled to the tank and doused the Viking with the remaining alcohol. The lighter snapped; flame bloomed. Half-blind with pain, she pressed a pillow against the bottle until it roared, then pitched the burning bundle into the tank.
-
 
 ## Act 3
 
