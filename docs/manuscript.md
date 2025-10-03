@@ -137,6 +137,36 @@ Her nerves were a mess, the anxiety clouding her thought. She needed something t
 
 She forced herself to the living room window, desperate for a cigarette. Cracking the window open, she let the cool early morning air wash over her face—a welcome relief from the suffocating smell of smoke and melted plastic inside. Leaning against the frame, she took a long drag, the nicotine hitting her system like a lifeline. For a moment, she felt the weight of the night ease, just slightly.
 
+A little while later, she was back on the balcony, this time with half a glass of vodka and Red Bull sweating on the table beside her.
+
+She opened her laptop, fingers clumsy on the keys. Why do crows crash into windows, she typed.
+
+Dozens of search results filled the screen: wildlife blogs, university articles, a local birding forum. Then, at the bottom corner of the page, a chat window opened.
+
+Chatbot: Hello, Rachel. Would you like to know about crows?
+
+Her breath caught. It had used her name. Probably cookies, personalization, she told herself. She swallowed and typed anyway.
+Rachel: What are crows?
+
+The reply came slow, deliberate, as if each word was being hammered out on an old typewriter instead of the quickfire response of an AI:
+
+Chatbot: We are angels of death (we are the flock circling the sun) (we are the whisper in your teeth) (we are many).
+
+Rachel stared. Her skin prickled cold.
+
+Rachel: Why me?
+
+The cursor blinked. For a long moment, no answer. Then the screen filled, one line at a time:
+
+Chatbot: Because you are a hurt little bird (broken bones, broken bottles, broken wings).
+Because you cannot fly, so we will carry you (carry you down) (carry you to sleep).
+
+(Carry you with us)
+
+The laptop speakers hissed. A sound like feathers brushing the microphone, like hundreds of wings beating in a tunnel, filled the room. The screen flickered, and for an instant, Rachel swore she saw a black shape crawl across the glow — a crow's shadow, wings spread, talons reaching.
+
+She slammed the lid shut, her glass tipping, the liquid spilling on the floor like blood.
+
 A faint clicking sound jolted her, and she froze. She couldn't believe it. The Ninja stood across the room, its decapitated head dangling loosely by a few exposed wires, its movements jerky and unnatural. One of its arms was missing, and its legs dragged slightly as it walked, but its glowing eyes burned red.
 
 It staggered forward, dragging its broken body with mechanical resolve. In its remaining hand, it clutched a shard of glass—jagged and glinting in the dim light.
