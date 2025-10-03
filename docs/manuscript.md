@@ -6,6 +6,8 @@ Rachel screamed as the crow's broken body tumbled onto her laptop, its wings spl
 
 For a moment, the glowing red eyes of the NinjaMaster seemed to reflect in the bird's unseeing gaze.
 
+## Act 1
+
 Later that morning, after having stiffened her nerves with a double serving of her favorite cocktail: vodka with a lot of ice, a little bit of lemonade (with a side of prozac), Rachel carefully carried the crow's lifeless body into the backyard. The sun was already high, casting long shadows across the dew-kissed grass. She found a small spade in the shed and began to dig a shallow grave beneath the old oak tree. The earth was soft and damp, and the rhythmic scrape of the spade against the soil was the only sound breaking the silence.
 
 "Mommy, what are you doing?"
@@ -22,9 +24,7 @@ Rachel's heart pounded. "It's just a... a little bird that wasn't feeling well. 
 
 "It's okay, honey. Everything's okay."
 
-## Act 1
-
-Later, while researching bird behaviour on the couch, this time mixing her red bull with vodka, Rachel felt drowsy. The caffeine wasn’t doing anything. Neither was the liquor. She knew she’d overdone it today, that she would go on another binge, and she would pay for it later with a horrible hangover. A hangover that would go on for days, and each day you felt like you were dying. Because you were.
+In the evening, while researching bird behaviour on the couch, this time mixing her red bull with vodka, Rachel felt drowsy. The caffeine wasn’t doing anything. Neither was the liquor. She knew she’d overdone it today, that she would go on another binge, and she would pay for it later with a horrible hangover. A hangover that would go on for days, and each day you felt like you were dying. Because you were.
 
 The image of the crow shattering the window kept replaying in her mind. The sound of it. The spray of glass. Birds hit windows all the time, sure—they see sky in the reflection, or their own rival staring back. But crows? Crows were too smart for that. They remembered faces. They held grudges. They didn't just throw themselves at glass like drunken moths. Unless it had gorged on fermented berries. Unless it was sick. Unless it was something else entirely.
 
@@ -58,7 +58,7 @@ The dean had noticed, however, and he didn't see it that way. He called her into
 
 She woke up in the middle of the night with a headache. She went to the kitchen, and made herself a vodka cranberry. She couldn’t take any aspirin, for she had been drinking. She knew for sure that mixing those was bad for one’s health, so she made herself a double. And then another one to top it off.
 
-Feeling fortified, she made her way to her room, pausing at Tommy’s doorway. He looked so small and fragile under the blankets. Rachel lingered for a moment, her chest tightening. She missed her late husband, Captain Branson…Ethan, every day. He had been shorter than her, not by much - she thought of herself as on the short side of tall, but he had carried himself with a commanding presence that filled every room.
+Feeling better, she made her way to her room, pausing at Tommy’s doorway. He looked so small and fragile under the blankets. Rachel lingered for a moment, her chest tightening. She missed her late husband, Captain Branson…Ethan, every day. He had been shorter than her, not by much - she thought of herself as on the short side of tall, but he had carried himself with a commanding presence that filled every room.
 
 She still loved to say “Captain Branson”, letting it linger on her lips like it was a kiss.
 
@@ -93,52 +93,51 @@ Rachel sat slumped against the bathroom wall, the weight of the day pressing dow
 Her hands trembled as she rubbed her temples. The Ninja’s attack had been impossible, irrational. It wasn’t just some malfunction—this was something else. She had scoured the internet on her phone, desperate for an explanation, but found nothing. No recalls, no complaints. Just glowing reviews about how fun the toys were.
 If Tommy hadn’t cried himself to sleep, chest all scratched up like he’d been attacked by a rat, she wouldn’t have believed it happened.
 
-A few hours later, her stomach growled, breaking the silence. She hadn’t eaten since breakfast. And she’d thrown that up anyway. Her stomach just didn’t hold anything down lately. The hallway felt unnervingly quiet as she made her way to the kitchen. Every creak of the floorboards set her nerves on edge. She grabbed a celery stalk and a knife, planning to make peanut butter snacks for herself right now, and leave some for Tommy when he woke up.
+A few hours later, her stomach growled, breaking the silence. She hadn’t eaten since breakfast. And she’d thrown that up anyway. Her stomach just didn’t hold anything down lately. The hallway felt unnervingly quiet as she made her way to the kitchen. Every creak of the floorboards set her nerves on edge. She grabbed a celery stalk and a knife, planning to make peanut butter snacks for herself right now, and leave some for Tommy when he woke up. She made herself another mixed drink, and gulped it down.
 
-She reached for the peanut butter. When she turned back to the counter, the knife was gone.
-Her heart stopped. She froze, scanning the room. Then she felt it—a sudden, searing pain in her hand. She screamed, dropping the celery. The Ninja was clinging to her arm, its tiny limbs locked around her wrist, the knife buried deep in her palm.
+She reached for the peanut butter. When she turned back to the counter, the knife was gone. Her heart stopped. She froze, scanning the room. Then she felt it—a sudden, searing pain in her hand. The Ninja was clinging to her arm, its tiny limbs locked around her wrist, the knife buried deep in her palm.
 
-Blood streamed down her fingers as she swung her arm wildly, slamming the toy into the counter. It clattered to the floor, still gripping the blade. Then, the ninja lunged at her again, its eyes glowing a menacing red. Rachel grabbed a frying pan from the sink and swung hard, catching the toy mid-air. The toy shattered, its pieces scattered like shrapnel across the floor.
+Blood streamed down her fingers as she swung her arm wildly, screaming in pain as she slammed the toy into the counter. It clattered to the floor, still gripping the blade. Then, the ninja lunged at her again, its eyes glowing a menacing red. Rachel grabbed a frying pan from the sink and swung hard, catching the toy mid-air, shattering it into pieces.
 
 Panting, Rachel clutched her hand, the knife wound throbbing. Her blood dripped onto the linoleum, pooling at her feet. She turned toward the stairs, desperate to check on Tommy.
 
 The moment her foot hit the bottom step, she felt a sharp, stabbing pain. A nail—long and rusty, one that hadn’t been there before—was sticking out of the wood, piercing straight through her bare foot. She cried out, collapsing onto the stairs, her head slamming against the banister.
 
-Rachel awoke to a loud screech. Then, she heard the flutter of wings. She sat up, her hand throbbing and her foot aching. The bedroom door was ajar. She didn’t remember leaving it open.
+She lay there, her vision darkening, her body trembling. The pain was excruciating, but she refused to let it take her down. She had to keep going. She had to protect Tommy.
+
+Rachel awoke to a loud screech. She didn't know how long she'd been out. It could have been forever. It could have been a million years, but then, she heard the flutter of wings. She sat up, her hand throbbing and her foot bleeding.
 
 Then, another strange sound, this one from the hallway. A faint, metallic clicking. Dragging.
 
-She eased off the bed, biting her lip to stifle a cry as she put weight on her injured foot. The makeshift bandage on her hand was soaked crimson. Snatching a lamp from the nightstand, her only weapon, she crept to the doorway. The scene in the hallway made her blood run cold. The Ninja, strangely rebuilt and now a horrific jumble of parts, faced the Viking's damaged form. The Ninja, a mangled horror of wires and plastic, wielded the kitchen knife with disturbing precision. The Viking, having discarded its plastic sword, now brandished a large pair of scissors.
+She eased off the bed, biting her lip to stifle a cry as she put weight on her injured foot. The makeshift bandage on her hand was soaked crimson. Snatching a lamp from the nightstand, her only weapon, she crept to the doorway. The scene in the hallway made her blood run cold. The Ninja, a mangled horror of wires and plastic, wielded the kitchen knife with disturbing precision. The Viking, having discarded its plastic sword, now brandished a large pair of scissors.
 
-The fight was a grotesque ballet of clashing metal and ripping plastic. The Ninja lunged, the kitchen knife a glinting blur, aiming for the Viking's remaining eye. The Viking parried with a clang, the scissors snapping open and close just inches from the Ninja's face. It retaliated with a swift jab, scoring a deep gash in the Ninja's arm, wires spilling out like entrails. The Ninja hissed, a sound of tortured servos and grinding gears, and countered with a wild flurry of blows. The Viking staggered, its metallic joints protesting, but held its ground.
+Blades flashed once, twice—then the Viking committed. It trapped the Ninja’s knife arm in the scissor jaws and snipped; cables whipped, oil misted the wall. Before the Ninja could reset, the Viking drove the scissors deep and sheared straight through its chassis. Plastic burst, wiring spilled. The Ninja collapsed in smoking pieces.
 
-The fight raged on, a whirlwind of desperate strikes and near misses. The Ninja’s knife found purchase, slicing through the Viking's plastic armor, sparks flying as it hit wires underneath. The Viking, seemingly cornered, suddenly spun, and with a desperate lunge, grabbed the Ninja's arm in its scissors and with a sickening crunch the arm was severed. The Ninja shrieked, a distorted electronic wail, but pressed its attack with its remaining arm swinging wildly. Using this distraction the Viking brought the scissors high and with a swift, final motion, severed what was left of the Ninja’s headless torso. The Ninja crashed to the ground in pieces as oil or some sort of synthetic lubricant sprayed the wall.
-
-The Viking turned, its glowing eyes locking onto Rachel. For a moment, it stood still, as if processing her presence. Then a faint beep broke the silence, and Rachel’s blood ran cold. She recognized the sound from the Ninja—its targeting mode.
+The Viking turned, its glowing eyes locking onto Rachel. For a moment, it paused, processing her presence. Then a faint beep broke the silence, and Rachel’s blood ran cold. She recognized the sound from the Ninja—its targeting mode.
 
 Rachel stumbled backward, slamming the door shut just as the Viking charged. The toy collided with the wood, producing a resounding thud. Limping to the bed, she carefully scooped Tommy into her arms, cradling him protectively against her chest.
 
 “Tommy!” she yelled, shaking him brusquely. He didn’t stir. “Tommy, wake up!”
 
-Ignoring the searing pain in her injured foot, she scooped Tommy into her arms and fled towards the living room. Each step sent shockwaves of agony through her body, but she pressed on. Behind her, the relentless clicking of the Viking's mechanical joints echoed through the hallway, a chilling reminder of its pursuit.
+Ignoring the searing pain in her injured foot, she scooped Tommy into her arms and fled towards the living room. Each step sent shockwaves of agony through her body, but she pressed on. Behind her, the relentless clicking of the Viking's mechanical joints echoed through the hallway.
 
-Reaching the living room, she laid Tommy on the couch and turned to face the toy. It hesitated, its glowing eyes flickering between her and the boy. Rachel grabbed a chair and swung it with all her strength, smashing it against the Viking. The toy went sailing through the air, clattering against the far wall.
+Reaching the living room, she laid Tommy on the couch and turned to face the toy. It hesitated, its glowing eyes flickering between her and the boy. Rachel grabbed a chair and swung it with all her strength, smashing it against the Viking. The toy went sailing through the air, dropping the scissors, and crashed against the far wall.
 
-The pain in her foot hit her like a hammer, and she fell to the floor.
+But the effort was too much. The pain in her foot hit her like a hammer, and she collapsed to the floor.
 
-“Come on, you little shit!” Rachel shouted, tears streaming down her face. "Just do it! Just do it!"
+“Come on, you little shit!” Rachel shouted, tears streaming down her face. "Just do it!"
 
-She sobbed on the cold floor, time stretching into an eternity of fear and pain. Gradually, the realization dawned that she was still breathing, still alive. The silence that enveloped her was deafening. Where was the Viking?
+Trembling, she forced herself to move, her fingers closing around the scissors the toy had dropped.
 
-Trembling, she forced herself to move, her fingers closing around the scissors the toy had dropped—a small, sharp lifeline in this nightmare.
+With agonizing slowness, Rachel dragged herself to her feet, every movement sending fresh waves of pain through her battered body. Her eyes darted around the room, searching for any sign of the mechanical menace. Then she saw it. The Viking was trapped inside the fish tank she'd bought months ago in a fit of optimism. The toy had lost one of its legs and couldn't jump out. Its arms flailed helplessly against the smooth glass walls, its eyes still glowing with malevolent purpose. And then there it was, a slight crack in the glass, the start of a spider web.
 
-With agonizing slowness, Rachel dragged herself to her feet, every movement sending fresh waves of pain through her battered body. Her eyes darted around the room, searching for any sign of the mechanical menace. Then she saw it. The Viking was trapped, its lower half mangled beyond recognition, inside the fish tank she'd bought months ago in a fit of optimism. The toy's remaining arm flailed uselessly against the smooth glass walls, its eyes still glowing with malevolent purpose, even as it lay defeated and immobile.
-
-Desperation fueled Rachel's thoughts as pain and an overwhelming craving for alcohol clouded her mind. With a sudden flash of inspiration, she limped to the bar, her fingers closing around the neck of a vodka bottle. She took a long, burning swig, the liquid fire momentarily dulling her agony.
+Desperation fueled Rachel's thoughts as pain and an overwhelming craving for alcohol clouded her mind. With a sudden flash of inspiration, she limped to the bar as quick as she could, her fingers closing around the neck of a vodka bottle. She took a long, burning swig, the liquid fire momentarily dulling her agony.
 
 Steeling herself, she hobbled back to the trapped Viking, dousing the mechanical menace with the remaining alcohol. Her hands trembling, she fumbled for the lighter on the nearby table, its small flame dancing in the darkness. Grabbing a decorative pillow, she set it ablaze, the fabric quickly engulfed in hungry flames. With a grimace, she tossed the makeshift torch into the fish tank.
 
 The vodka ignited instantly, creating a miniature inferno. Rachel watched, transfixed, as the Viking's plastic body began to warp and melt, its malevolent eyes flickering one last time before being consumed by the flames.
+
+## Act 3
 
 Dawn crept through the windows, Rachel sat on the couch, trembling as the flames in the fish tank dimmed. The Viking was no more. The apartment reeked of burnt plastic and vodka, the air heavy with smoke. Every part of her body screamed in pain—her hand throbbed from the knife wound, her foot ached with every pulse of her heartbeat, and her head pounded from sheer exhaustion.
 
