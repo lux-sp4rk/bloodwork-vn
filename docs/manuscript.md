@@ -2,7 +2,7 @@
 
 Rachel clicked **"Place Order"** on the NinjaMaster 9000 and its companion opponent, Viking Warrior. Tommy would finally have the AI battle toys he'd been begging for. She was about to close the website when the confirmation email dinged in her inbox. At that exact moment, something struck her bedroom window, glass exploding inward.
 
-Rachel screamed as the crow's broken body tumbled onto her laptop, its wings splayed awkwardly, blood smearing across the glowing product photo of the toys. She felt a hot sting across her cheek and temple—glass shards from the shattered window had peppered her face. She touched her cheek and her fingers came away bloody. A particularly large shard, maybe half an inch long, was embedded just below her left eye. She'd deal with it later.
+Rachel screamed as the crow's broken body tumbled onto her laptop, its wings splayed awkwardly, blood smearing across the glowing product photo of the toys. She felt a hot sting across her cheek and temple—glass shards from the shattered window had peppered her face. She touched her cheek and her fingers came away bloody.
 
 For a moment, the glowing red eyes of the NinjaMaster seemed to reflect in the bird's unseeing gaze.
 
@@ -12,23 +12,27 @@ Later that morning, after having stiffened her nerves with a double serving of h
 
 "Mommy, what are you doing?"
 
-Rachel startled, dropping the spade. Tommy stood at the back door, his eyes wide with curiosity. He was still in his pajamas, a dinosaur print that suddenly seemed too cheerful for the grim task at hand.
+Rachel startled, dropping the spade. Tommy stood at the back door, his eyes wide with curiosity. He was still in his pajamas.
 
 "Nothing, sweetie," Rachel said, forcing a smile. She quickly tried to cover the crow with a pile of leaves.
 
 "Just... planting a new flower."
 
-Tommy tilted his head. "That's not a flower, Mommy." He pointed a small finger at the barely concealed bird. 
+Tommy tilted his head. "That's not a flower, Mommy." He pointed a small finger at the barely concealed bird.
 
 Rachel's heart pounded. "It's just a... a little bird that wasn't feeling well. We're helping it go to sleep." She knelt, pulling him into a hug, trying to shield the sight from him.
 
 "It's okay, honey. Everything's okay."
 
-In the evening, while researching bird behaviour on the couch, this time mixing her red bull with vodka, Rachel felt drowsy. The caffeine wasn’t doing anything. Neither was the liquor. She knew she’d overdone it today, that she would go on another binge, and she would pay for it later with a horrible hangover. A hangover that would go on for days, and each day you felt like you were dying. Because you were.
+But it wasn't. The crow wouldn't leave her mind.
+
+In the evening, while researching bird behaviour on the couch, this time mixing her red bull with vodka, Rachel felt drowsy. The caffeine wasn’t doing anything. Neither was the liquor. She knew she’d overdone it today, that she would go on another binge, and she would pay for it later with a hangover. A hangover that would go on for days, and each horrible day you felt like you were dying. Because you were.
 
 The image of the crow shattering the window kept replaying in her mind. The sound of it. The spray of glass. Birds hit windows all the time, sure—they see sky in the reflection, or their own rival staring back. But crows? Crows were too smart for that. They remembered faces. They held grudges. They didn't just throw themselves at glass like drunken moths. Unless it had gorged on fermented berries. Unless it was sick. Unless it was something else entirely.
 
 She slept on the couch—bed too big, too empty—TV on, pills with vodka. She told herself it was temporary. She wouldn’t let it get out of control again. Not with Tommy.
+
+*She'd told herself that before.*
 
 The university lab buzzed under hard fluorescents. Rachel took a pull from the “water” bottle, hands unsteady over the slides. David’s voice was low: "You okay?" She nodded. Then the dean stepped in. Panic.
 
@@ -38,7 +42,7 @@ She woke with a headache, poured a vodka cranberry, then another.
 
 Feeling better, she made her way to her room, pausing at Tommy’s doorway. He looked so small and fragile under the blankets. Rachel lingered for a moment, her chest tightening. She missed her late husband, Captain Branson…Ethan, every day. He had been shorter than her, not by much - she thought of herself as on the short side of tall, but he had carried himself with a commanding presence that filled every room.
 
-She still loved to say “Captain Branson”, letting it linger on her lips like it was a kiss.
+She still loved to say “Captain Branson”, letting it linger on her lips like a kiss.
 
 He hadn’t died in battle, like so many assumed – an assumption she quietly encouraged – but in a drunken accident at last year’s Thanksgiving dinner. On a dare, he’d climbed out a second-story window, boasting about his mountain goat reflexes. One wrong step, and he was gone. Rachel could still hear his voice sometimes, teasing her: “I must’ve been a mountain goat in a past life!” The memory brought a bitter smile to her lips.
 
@@ -56,7 +60,7 @@ Rachel bolted up the stairs, her heart pounding in her chest. Every second stret
 
 She froze in the doorway, horrified. The ninja was jabbing its plastic sword into Tommy's chest, its servos whining with each violent thrust. The sword's edge—sharpened by some cruel manufacturing flaw or deliberate design—punched through the thin fabric of his dinosaur pajamas again and again. Blood bloomed across the cartoon T-rexes, spreading in dark, wet circles. Tommy squirmed, his face wet with tears and snot, clawing at the toy with tiny hands that couldn't make it stop. One particularly vicious thrust split the skin above his collarbone, and blood spurted in rhythm with his panicked heartbeat.
 
-Rachel lunged, grabbing the ninja with both hands at the waist. Its limbs twisted unnaturally, gears grinding as it fought to break free. The sword raked across her forearm, opening a thin gash that burned like fire. Its sharp movements almost jerked it from her grasp, and when she finally wrenched it away, she felt something in her wrist pop—tendon or cartilage, she couldn't tell.
+Rachel lunged, grabbing the ninja with both hands at the waist. Its limbs twisted unnaturally, gears grinding as it fought to break free. The sword raked across her forearm, opening a thin gash that burned like fire. Its sharp movements almost jerked it from her grasp, and when she finally wrenched it away, she felt something in her wrist pop.
 
 With a cry, she stumbled to the open window and hurled it outside. The toy disappeared into the darkness. She heard it hit the ground. Closing the window, she locked it, dropped to her knees, and then passed out.
 
@@ -65,7 +69,7 @@ With a cry, she stumbled to the open window and hurled it outside. The toy disap
 Rachel sat slumped against the bathroom wall, the weight of the day pressing down on her chest. Red bile pooled in the toilet—so much for the cranberry vodka from earlier. She caught her reflection in the mirror—the glass shard below her eye had worked its way deeper, the skin around it angry and inflamed. When she touched it, fresh blood welled up. She should pull it out, but her hands were shaking too badly. The front door was locked and the windows barricaded. Tommy was finally asleep, thanks to a half-dose of sedatives crushed into his milk. She hated herself for doing it—it was reckless, dangerous even—but the boy had been inconsolable after the attack.
 
 Her hands trembled as she rubbed her temples. The Ninja’s attack had been impossible, irrational. It wasn’t just some malfunction—this was something else. She had scoured the internet on her phone, desperate for an explanation, but found nothing. No recalls, no complaints. Just glowing reviews about how fun the toys were.
-If Tommy hadn't cried himself to sleep, his dinosaur pajamas crusted with dried blood, deep puncture wounds still oozing across his chest and collarbone, she wouldn't have believed it happened. She'd cleaned him up as best she could with vodka-soaked cotton balls, but some of the cuts were deep enough that she could see the pale layer of fat beneath the skin.
+If Tommy hadn't cried himself to sleep, his dinosaur pajamas crusted with dried blood, deep puncture wounds still oozing across his chest and collarbone, she wouldn't have believed it happened. She'd cleaned him up as best she could, but some of the cuts were bad...one was deep enough that she could see the pale layer of fat beneath the skin.
 
 A few hours later, her stomach growled, breaking the silence. She hadn’t eaten since breakfast. And she’d thrown that up anyway. Her stomach just didn’t hold anything down lately. The hallway felt unnervingly quiet as she made her way to the kitchen. Every creak of the floorboards set her nerves on edge. She grabbed a celery stalk and a knife, planning to make peanut butter snacks for herself right now, and leave some for Tommy when he woke up. She made herself another mixed drink, and gulped it down.
 
@@ -143,14 +147,14 @@ She opened her laptop, fingers clumsy on the keys. Why do crows crash into windo
 
 Dozens of search results filled the screen: wildlife blogs, university articles, a local birding forum. Then, at the bottom corner of the page, a chat window opened.
 
-Chatbot: Hello, Rachel. Would you like to know about crows?
+Chatbot: Hello, Rachel. Would you like to know about crows? (Oh, yes, yes, yes)(You're not the first to ask)(Or the last)
 
 Her breath caught. It had used her name. Probably cookies, personalization, she told herself. She swallowed and typed anyway.
 Rachel: What are crows?
 
 The reply came slow, deliberate, as if each word was being hammered out on an old typewriter instead of the quickfire response of an AI:
 
-Chatbot: We are angels of death (we are the flock circling the sun) (we are the whisper in your teeth) (we are many).
+Chatbot: We are angels of death (we are the flock circling the sun) (we are the whisper in your teeth) (we are many)(we are one).
 
 Rachel stared. Her skin prickled cold.
 
