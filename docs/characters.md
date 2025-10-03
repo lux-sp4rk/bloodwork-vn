@@ -6,26 +6,30 @@
 
 - **Role**: Protagonist, mother, former paleontologist
 - **Background**: Recently widowed, former university professor specializing in paleontology
-- **Current situation**: On leave from university, struggling with substance abuse (alcohol + Xanax)
-- **Physical**: Describes herself as "on the short side of tall"
+- **Current situation**: On leave from university, struggling with substance abuse (alcohol + Prozac)
+- **Physical**: Describes herself as "on the short side of tall"; sustains escalating injuries throughout story
 - **Key traits**:
   - Intelligent, analytical mind from scientific background
-  - Struggling with addiction (vodka, anxiety medication)
-  - History of bulimia in college
-  - Believes she's still in control of her addictions
-  - Protective of Tommy but making dangerous parenting choices (sedating him)
-- **Arc**: Fired from university due to drinking, battles AI toys to protect her son, dies falling from balcony while fighting the Ninja
+  - Struggling with addiction (vodka in various combinations, anxiety medication)
+  - History of bulimia during Ethan's deployments; compulsions shift to vodka and pills after his death
+  - Tests the word "Addict" on her tongue—tastes like metal
+  - Protective of Tommy but making dangerous parenting choices (sedating him with crushed pills)
+  - Smoker (cigarettes)
+- **Drinking habits**: Vodka with ice and lemonade (with Prozac), vodka and Red Bull, cranberry vodka, vodka cranberry, gin with ice and seltzer; owns wine glass printed with drunken crow and "Nevermore Sober!!"
+- **Progressive injuries**: Glass shards to face/temple from crow incident (one shard stays embedded below eye until Act 3, becomes infected); cut forearm and injured wrist from first Ninja attack; knife through palm severing tendons; nail through foot; burns; deep chest wound from glass shard; cheek laid open to teeth
+- **Arc**: Put on leave from university due to drinking, battles AI toys to protect her son, dies falling from window while fighting the decapitated Ninja
 - **Relationship to fossils/death**: Works with ancient bones, feels kinship with dead things after Ethan's death
 
 ### Tommy
 
 - **Role**: Rachel's young son (elementary school age)
-- **Physical**: Strong resemblance to his father Ethan
+- **Physical**: Strong resemblance to his father Ethan; wears dinosaur pajamas with T-rex prints
 - **Key traits**:
   - Anxious, wanted AI battle toys (NinjaMaster 9000 and Viking Warrior)
   - Afraid of school, climbed fence on first day, never returned
   - Target of the toys' attacks
-- **Arc**: Traumatized by toy attacks, sedated by mother, orphaned by story's end
+- **Injuries**: Multiple stab wounds to chest and collarbone from NinjaMaster's sharpened plastic sword; blood soaks through dinosaur pajamas; deep puncture wounds that continue oozing; one cut deep enough to expose fat layer beneath skin
+- **Arc**: Traumatized by toy attacks, sedated by mother with crushed pills in milk, orphaned by story's end
 
 ### Captain Ethan Branson (deceased)
 
@@ -62,19 +66,33 @@
 ### NinjaMaster 9000
 
 - **Type**: AI-powered battle toy
-- **Appearance**: Ninja design with glowing red eyes, plastic sword initially, later uses kitchen knife
-- **Behavior**: Attacks Tommy first, later Rachel; rebuilt itself after being thrown from window; eventually decapitated but continues fighting
-- **Death**: Falls from balcony with Rachel, destroyed
+- **Appearance**: Ninja design with glowing red eyes
+- **Weapons**: Sharpened plastic sword (first attack), kitchen knife (second attack), glass shard (final attack)
+- **Behavior**: Attacks Tommy first with plastic sword, drawing significant blood. After being thrown from window, returns to attack Rachel with kitchen knife, stabbing through her palm. Destroyed by Rachel with frying pan but reassembles. Loses to Viking in brutal duel (decapitated, one arm missing). Despite catastrophic damage (head dangling by wires, missing arm, dragging legs), continues final assault with glass shard
+- **Voice**: Metallic: "By the blood of the dragon, target confirmed!"
+- **Death**: Falls through window with Rachel, shattered on pavement
 
 ### Viking Warrior
 - **Type**: AI-powered battle toy, companion to NinjaMaster
-- **Appearance**: Viking design with glowing eyes, uses scissors as weapon
-- **Behavior**: Fights and destroys the Ninja, then targets Rachel; becomes trapped in fish tank
-- **Death**: Burned alive by Rachel using vodka and fire in the fish tank
+- **Appearance**: Viking design with glowing eyes
+- **Weapons**: Discards plastic sword for large scissors
+- **Behavior**: Brutally defeats the rebuilt Ninja in hallway duel—traps knife arm in scissor jaws, snips cables, drives scissors through chassis. Targets Rachel with targeting beep. After being hit with Ethan's golf club, loses one leg and becomes trapped in fish tank, unable to clear the rim. Continues fighting despite damage
+- **Death**: Doused with alcohol and burned alive by Rachel in the fish tank; becomes twisted, blackened lump of melted plastic
 
 ## Symbolic Characters
 
-### The Crow
-- **Role**: Omen/messenger
-- **Event**: Crashes through Rachel's window while she's ordering the toys, dies on impact
-- **Symbolism**: Death omen, possibly foreshadowing the story's events; Rachel wonders if it came to deliver a message she wouldn't hear
+### The Crow / Crow Entity
+- **Role**: Omen/messenger/supernatural presence
+- **First appearance**: Single crow crashes through Rachel's window while she's ordering the toys, shattering glass and cutting her face. Dies on her laptop, blood smearing the toy photos. Its eyes seem to mirror the NinjaMaster's glowing red eyes
+- **Recurring presence**:
+  - Screeching and wing-fluttering sounds wake Rachel between attacks
+  - One dead crow lies beside Rachel's body at the end, wing draped across her shattered ribs
+  - Murder of crows gathers: on fire escape, telephone wires, circling overhead, surrounding her corpse
+- **Chatbot manifestation**: Appears through laptop chat window, knows Rachel's name. Speaks in multiple overlapping voices in parentheses
+  - "We are angels of death (we are the flock circling your earth) (we are the blisters on your skin) (we are many)(we are one)"
+  - "Because you are a hurt little bird (broken bones, broken bottles...)(broken wings, bitch!)"
+  - "Because you cannot fly, so we will carry you (carry you down) (carry you with us)"
+  - Laptop speakers hiss with feathers and wings; crow's shadow crawls across screen with talons reaching
+- **TV announcer**: Wrestling match announcer's voice transforms—layered, echoing, like dozens of voices with beating wings. Face becomes a crow's, crackling with static. Wrestlers glitch between human and black feathers, flesh and plastic
+- **Final act**: Crows feed on Rachel's corpse, tearing flesh, plucking at brain matter, extracting her eye. "They are carrying her with them"—fulfilling the chatbot's promise
+- **Symbolism**: Death itself, possibly orchestrating events; collective consciousness; harbingers and psychopomps carrying Rachel to death
