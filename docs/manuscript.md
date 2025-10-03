@@ -137,32 +137,30 @@ She limped to the tank and doused the Viking with the remaining vodka. The light
 
 ## Act 3
 
-Dawn crept through the windows, Rachel sat on the couch, trembling as the flames in the fish tank dimmed. The Viking was no more. The apartment reeked of burnt plastic and vodka, the air heavy with smoke. Every part of her body screamed in pain—her hand throbbed from the knife wound, her foot ached with every pulse of her heartbeat, and her head pounded from sheer exhaustion.
+Dawn crept through the windows, Rachel sat on the couch, trembling as the flames in the fish tank dimmed. The Viking was no more. The apartment reeked of burnt plastic and booze and the air was heavy with smoke. Every part of her body screamed in pain: her hand throbbed from the knife wound, her foot ached with every pulse of her heartbeat, and her head pounded from sheer exhaustion and the first pangs of withdrawal.
 
-She limped to Tommy, still sleeping soundly on the couch. His tiny chest rose and fell steadily. She touched his forehead, brushing his hair aside. At least he was okay. “You’re okay,” she whispered, more to herself than to him.
+She limped to Tommy, still sleeping soundly on the couch. His tiny chest rose and fell steadily. She touched his forehead, brushing his hair aside.
 
-Rachel forced herself into the bathroom to clean her wounds. She winced as she disinfected the gash on her hand, gritting her teeth to keep from crying out. She poured more vodka over her injured foot, the sting bringing tears to her eyes. Wrapping her foot in a clean towel, she secured it tightly with duct tape. It wasn’t perfect, but it would have to do.
+“You’re okay,” she whispered, more to herself than to him.
 
-Her nerves frayed, she stumbled to the living room window, desperate for a cigarette. She cracked it open, letting the cool early morning air wash over her face—a welcome relief from the suffocating smell of smoke and melted plastic inside. Leaning against the frame, she took a long drag, the nicotine hitting her system like a lifeline. For a moment, she felt the weight of the night ease, just slightly.
+Rachel forced herself into the bathroom to clean her wounds. She winced as she disinfected the gash on her hand, gritting her teeth to keep from crying out. She poured rubbing alcohol over her injured foot, the sting bringing tears to her eyes. She wrapped her foot in a clean bandage and secured it tightly with tape. It wasn’t perfect, but it would have to do.
 
-A faint clicking sound jolted her from her thoughts. Her blood ran cold.
+Her nerves were a mess, the anxiety clouding her thought. She forced herself to her feet and stumbled to the living room window, desperate for a cigarette. Cracking the window open, she let the cool early morning air wash over her face—a welcome relief from the suffocating smell of smoke and melted plastic inside. Leaning against the frame, she took a long drag, the nicotine hitting her system like a lifeline. For a moment, she felt the weight of the night ease, just slightly.
 
-The Ninja stood across the room, its decapitated head dangling loosely by a few exposed wires, its movements jerky and unnatural. One of its arms was missing, and its legs dragged slightly as it walked, but its glowing eyes burned with relentless fury.
+A faint clicking sound jolted her, and she froze. She couldn't believe it. The Ninja stood across the room, its decapitated head dangling loosely by a few exposed wires, its movements jerky and unnatural. One of its arms was missing, and its legs dragged slightly as it walked, but its glowing eyes burned red.
 
 It staggered forward, dragging its broken body with mechanical resolve. In its remaining hand, it clutched a shard of glass—jagged and glinting in the dim light.
 
-The Ninja lunged. Rachel dodged, narrowly avoiding the shard of glass as it slashed through the air. Her injured foot slipped on the blood-slicked floor, and she stumbled backward toward the window. The Ninja staggered but quickly turned back toward her, relentless.
+The Ninja lunged. Rachel dodged, narrowly avoiding the slash as it slashed through the air. Her injured foot slipped on the blood-slicked floor, and she stumbled backward toward the window. The Ninja staggered but quickly turned back toward her, relentless.
 
-She swung wildly, trying to knock the toy away, but her strength was fading. The Ninja leaped at her chest, its glowing eyes fixed on her throat. With a guttural scream, Rachel grabbed its tiny body with both hands. They struggled, her bloodied hands slipping on its slick plastic. The Ninja stabbed at her face, the glass shard cutting deep across her cheek, but she refused to let go.
+She kicked at it wildly, trying to knock the toy away, but her strength was fading. The Ninja leaped at her chest, its glowing eyes fixed on her throat. With a guttural scream, Rachel grabbed its tiny body with both hands even as it ripped the shard across her breasts. It hurt like hell, but she refused to let go. They struggled, her hands slipping on its slick plastic. The Ninja stabbed at her face, the glass shard cutting deep across her cheek, but she refused to let go.
 
 Rachel's back hit the window frame. The Ninja twisted violently in her grip, servos whining. She lost her balance.
 
-Glass exploded outward as they crashed through the window together, Rachel's body tumbling through the air, the Ninja still clutched in her hands. For a moment, the glowing red eyes seemed to dim, as if satisfied.
-
-Then the pavement rushed up to meet them.
+Glass exploded outward as they crashed through the window together, Rachel's body tumbling through the air, the Ninja still clutched in her hands. Then the pavement rushed up to meet them.
 
 ## Aftermath
 
 Tommy woke to the sound of sirens. He sat up groggily, rubbing his eyes. The apartment was a disaster—broken furniture, bloodstains on the floor, and shattered glass everywhere. He wandered toward the living room window, where the cool morning air rushed in through the jagged opening.
 
-Below, police cars and an ambulance crowded the street. Paramedics worked frantically around a figure lying motionless on the pavement, surrounded by glittering shards of glass. Beside her, the shattered remains of the Ninja were scattered across the concrete, its red eyes finally dark.
+Below, police cars and an ambulance crowded the street. Paramedics worked frantically around a figure lying motionless on the pavement, surrounded by glittering shards of glass. Beside her lay a crow, black feathers matted and one wing splayed at an impossible angle.
