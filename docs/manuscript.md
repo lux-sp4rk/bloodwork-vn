@@ -129,13 +129,11 @@ But the effort was too much. The pain in her foot hit her like a hammer, and she
 
 Trembling, she forced herself to move, her fingers closing around the scissors the toy had dropped.
 
-With agonizing slowness, Rachel dragged herself to her feet, every movement sending fresh waves of pain through her battered body. Her eyes darted around the room, searching for any sign of the mechanical menace. Then she saw it. The Viking was trapped inside the fish tank she'd bought months ago in a fit of optimism. The toy had lost one of its legs and couldn't jump out. Its arms flailed helplessly against the smooth glass walls, its eyes still glowing with malevolent purpose. And then there it was, a slight crack in the glass, the start of a spider web.
+Rachel hauled herself upright, pain spiking with every movement. She swept the room—then froze: the Viking thrashed inside the fish tank she’d bought months ago. One leg was gone; it couldn’t clear the rim. Its arms scraped uselessly at the glass, eyes still burning. A hairline crack veined the pane, spreading like a spiderweb.
 
-Desperation fueled Rachel's thoughts as pain and an overwhelming craving for alcohol clouded her mind. With a sudden flash of inspiration, she limped to the bar as quick as she could, her fingers closing around the neck of a vodka bottle. She took a long, burning swig, the liquid fire momentarily dulling her agony.
+Desperation fueled Rachel's thoughts as pain and an overwhelming craving for alcohol clouded her mind. With a sudden spark, she limped to the bar as quickly as she could, her fingers closing around the neck of a vodka bottle. She took a long, burning swig, the liquid fire momentarily dulling her agony.
 
-Steeling herself, she hobbled back to the trapped Viking, dousing the mechanical menace with the remaining alcohol. Her hands trembling, she fumbled for the lighter on the nearby table, its small flame dancing in the darkness. Grabbing a decorative pillow, she set it ablaze, the fabric quickly engulfed in hungry flames. With a grimace, she tossed the makeshift torch into the fish tank.
-
-The vodka ignited instantly, creating a miniature inferno. Rachel watched, transfixed, as the Viking's plastic body began to warp and melt, its malevolent eyes flickering one last time before being consumed by the flames.
+She limped to the tank and doused the Viking with the remaining vodka. The lighter snapped; flame bloomed. She pressed a pillow to it until it roared, then pitched the burning bundle into the tank.
 
 ## Act 3
 
