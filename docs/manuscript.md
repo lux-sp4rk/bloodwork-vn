@@ -149,13 +149,13 @@ She limped to Tommy, still sleeping soundly on the couch. His tiny chest rose an
 
 Rachel forced herself into the bathroom to clean her wounds. The sink basin was still stained with dried blood from earlier—handprints smeared across the porcelain, rust-brown and crusted. The face that stared back from the mirror was barely recognizable—the glass shard below her eye had shifted, now protruding at an angle, surrounded by a purple-black bruise. She gripped it with trembling fingers and yanked it free. The shard came out with a wet sound, followed by a rivulet of blood that ran down her neck. Fresh blood spiraled down the drain, mixing with the old. She stuffed tissue against the wound.
 
-She winced as she disinfected the gash on her hand, gritting her teeth to keep from crying out. She poured rubbing alcohol over her injured foot, the sting bringing tears to her eyes. The burns on her forearm were the worst—second-degree at least, with patches where the melted fabric had fused into the blistered flesh. She couldn't bring herself to peel it away. She wrapped her foot in a clean bandage and secured it tightly with tape. It wasn't perfect, but it would have to do.
+She winced as she disinfected the gash on her hand, gritting her teeth to keep from crying out. She poured rubbing alcohol over her injured foot, the sting bringing tears to her eyes. She wrapped her foot in a clean bandage and secured it tightly with tape. It wasn't perfect, but it would have to do.
 
-Her nerves were a mess, the anxiety clouding her thought. She needed something to calm down. She stumbled to the kitchen, each step a fresh agony. The linoleum was still tacky with blood from the earlier attack, her bare feet sticking to it with each step. She opened the refrigerator, desperate for another drink, and the cool white light washed over her ruined face, illuminating the full horror—blood crusted in her hair, burns weeping down her arm, the hole below her eye still oozing. She stared at her reflection in the stainless steel interior, barely recognizing the creature staring back. She grabbed a bottle of vodka from the door and took a long pull.
+Her nerves were a mess, the anxiety clouding her thoughts. She needed something to calm down. She stumbled to the kitchen, each step a fresh agony. The linoleum was still sticky with blood from the earlier attack, her bare feet sticking to it with each step. She opened the refrigerator, desperate for another drink, and the cool white light washed over her ruined face, illuminating the full horror—blood crusted in her hair, burns weeping down her arm, the hole below her eye still oozing. She stared at her reflection in the stainless steel interior, barely recognizing the creature staring back. She grabbed a bottle of gin from the freezer and took a long pull.
 
 She forced herself to the living room window, desperate for a cigarette. Cracking the window open, she let the cool early morning air wash over her face—a welcome relief from the suffocating smell of smoke and melted plastic inside. Leaning against the frame, she took a long drag, the nicotine hitting her system like a lifeline. For a moment, she felt the weight of the night ease, just slightly.
 
-A little while later, she was back on the balcony, this time with half a glass of vodka and Red Bull sweating on the table beside her.
+A little while later, she was back on the balcony, this time with half a glass of gin, ice, and seltzer sweating on the table beside her.
 
 She opened her laptop, fingers clumsy on the keys. Why do crows crash into windows, she typed.
 
@@ -168,18 +168,21 @@ Rachel: What are crows?
 
 The reply came slow, deliberate, as if each word was being hammered out on an old typewriter instead of the quickfire response of an AI:
 
-Chatbot: We are angels of death (we are the flock circling the sun) (we are the whisper in your teeth) (we are many)(we are one).
+Chatbot: We are angels of death (we are the flock circling your earth) (we are the blisters on your skin) (we are many)(we are one).
 
-Rachel stared. Her skin prickled cold.
+Rachel stared. She could feel her stomach tighten, and her heart skipped a beat.
 
 Rachel: Why me?
 
 The cursor blinked. For a long moment, no answer. Then the screen filled, one line at a time:
 
-Chatbot: Because you are a hurt little bird (broken bones, broken bottles, broken wings).
-Because you cannot fly, so we will carry you (carry you down) (carry you to sleep).
+Chatbot: Because you are a hurt little bird (broken bones, broken bottles...)(broken?)(who's broken?)(broken wings, bitch!).
+Because you cannot fly, so we will carry you (carry you down) (bahaha!) (carry you to sleep).
 
 (Carry you with us)
+(SHUT THE FUCK UP!)
+(...)
+(Ha...ha....ha...)
 
 The laptop speakers hissed. A sound like feathers brushing the microphone, like hundreds of wings beating in a tunnel, filled the room. The screen flickered, and for an instant, Rachel swore she saw a black shape crawl across the glow — a crow's shadow, wings spread, talons reaching.
 
@@ -207,6 +210,16 @@ Tommy woke to the sound of sirens. He sat up groggily, rubbing his eyes. The apa
 
 Below, police cars and an ambulance crowded the street. Paramedics worked frantically around a figure lying motionless on the pavement. The impact had split Rachel's skull like a melon dropped from a height—bone fragments and brain matter spread in a dark halo around her head. Her chest wound from the Ninja's attack had torn wider on impact, ribs jutting through the ragged opening, organs visible in the morning light.
 
-The pavement around her was a Jackson Pollock of blood and viscera, still spreading in a slow, dark pool. Glass shards glittered everywhere, some embedded in her flesh, others scattered like deadly confetti. The Ninja's shattered pieces lay beside her, its plastic body cracked open, oil mixing with her blood in swirling patterns.
+The pavement around her was a dark pool of blood and viscera, still spreading in a slow, dark gush. Glass shards glittered everywhere, some embedded in her flesh, others scattered like confetti. The Ninja's shattered pieces lay beside her, its plastic body cracked open, oil mixing with her blood in swirling patterns.
 
-A crow lay nearby—the same one from the beginning, impossibly. Its black feathers were matted and stuck to the blood, one wing splayed at an impossible angle. Some of its feathers had blown into the gore, dark plumage clinging to exposed tissue, creating a grotesque collage of woman and bird. The paramedics turned away, one of them vomiting into the gutter. There was nothing to save.
+A crow lay beside her—the same one from the beginning, impossibly. Its black feathers were matted in her blood, one wing draped across her shattered ribs.
+
+There were more. Perched on the fire escape, the telephone wires, circling overhead. Most were on the ground, surrounding her body.
+
+They began to feed.
+
+Beaks tore at exposed flesh, pulling strips of muscle from between her ribs. They plucked at the brain matter scattered across the pavement, swallowing pieces of her. One crow perched on her chest, talons gripping the wound's edge, dipping its beak inside. Another worked at her eye socket, extracting what remained.
+
+They were carrying her with them.
+
+The paramedics turned away, one of them vomiting into the gutter. There was nothing to save.
