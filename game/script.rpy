@@ -40,7 +40,6 @@ default tommy_trust = 50
 
 label start:
 
-    ## Intro: The Order
     scene black
     with fade
 
@@ -59,15 +58,16 @@ label scene_the_order:
     ## Scene 1: The Order
     ## Location: Rachel's bedroom
 
-    scene bedroom
+    scene house_exterior
+    # audio bgm "audio/bgm/storm.ogg"
     with fade
-
-    ## TODO: Adapt manuscript content here
+    pause 3
+    show bedroom
+    with dissolve
+    "Rachel is ordering toys online..."
     ## - Rachel ordering toys online
     ## - Crow crashes through window
     ## - Dies on her laptop
-
-    "Placeholder: The crow crashes through the window..."
 
     jump scene_the_burial
 
