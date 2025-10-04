@@ -1360,10 +1360,8 @@ style nvl_button is button
 style nvl_button_text is button_text
 
 style nvl_window:
-    xfill True
-    yfill True
-
-    background "gui/nvl.png"
+    xalign 0.5
+    yalign 0.5
     padding gui.nvl_borders.padding
 
 style nvl_entry:
@@ -1377,25 +1375,25 @@ style nvl_label:
     yanchor 0.0
     xsize gui.nvl_name_width
     min_width gui.nvl_name_width
-    text_align gui.nvl_name_xalign
+    text_align 0.5
 
 style nvl_dialogue:
     xpos gui.nvl_text_xpos
-    xanchor gui.nvl_text_xalign
+    xanchor 0.5
     ypos gui.nvl_text_ypos
     xsize gui.nvl_text_width
     min_width gui.nvl_text_width
-    text_align gui.nvl_text_xalign
-    layout ("subtitle" if gui.nvl_text_xalign else "tex")
+    text_align 0.5
+    layout "subtitle"
 
 style nvl_thought:
     xpos gui.nvl_thought_xpos
-    xanchor gui.nvl_thought_xalign
+    xanchor 0.5
     ypos gui.nvl_thought_ypos
     xsize gui.nvl_thought_width
     min_width gui.nvl_thought_width
-    text_align gui.nvl_thought_xalign
-    layout ("subtitle" if gui.nvl_thought_xalign else "tex")
+    text_align 0.5
+    layout "subtitle"
 
 style nvl_button:
     properties gui.button_properties("nvl_button")

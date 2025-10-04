@@ -8,6 +8,7 @@
 - **Background**: Recently widowed, former university professor specializing in paleontology
 - **Current situation**: On leave from university, struggling with substance abuse (alcohol + Prozac)
 - **Physical**: Describes herself as "on the short side of tall"; sustains escalating injuries throughout story
+- **Look**: Late 20s/early 30s woman, shoulder-length dark hair, white hoodie, blue jeans
 - **Key traits**:
   - Intelligent, analytical mind from scientific background
   - Struggling with addiction (vodka in various combinations, anxiety medication)

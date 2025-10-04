@@ -8,13 +8,13 @@
 ## Character Definitions
 ################################################################################
 
-define r = Character("Rachel", color="#c8c8ff")
-define t = Character("Tommy", color="#ffcc99")
-define d = Character("David", color="#99ccff")
+define rachel = Character("Rachel", color="#c8c8ff")
+define tommy = Character("Tommy", color="#ffcc99")
+define david = Character("David", color="#99ccff")
 define dean = Character("Dean", color="#cccccc")
 
 ## Narrator for internal thoughts and descriptions
-define n = Character(None, kind=nvl)
+define narration = Character(None, kind=nvl)
 
 ################################################################################
 ## Story Variables
@@ -31,8 +31,9 @@ default stayed_awake = False
 ## Condition tracking
 
 default rachel_exhaustion = 0
-default tommy_trust = 50
-
+default rachel_sanity = 3
+default rachel_health = 0
+default tommy_trust = 5
 
 ################################################################################
 ## Start of the Game
@@ -57,20 +58,38 @@ label start:
 label scene_the_order:
     ## Scene 1: The Order
     ## Location: Rachel's bedroom
-
     scene house_exterior
-    # audio bgm "audio/bgm/storm.ogg"
+    play sound "audio/sfx/rainstorm.ogg" loop volume 0.6
+
     with fade
+    pause 2
+    show bedroom_interior_rachel
     pause 3
-    show bedroom
-    with dissolve
-    "Rachel is ordering toys online..."
-    ## - Rachel ordering toys online
-    ## - Crow crashes through window
-    ## - Dies on her laptop
-
+    show computer_checkout_cart
+    narration """
+        Rachel clicked 'Place Order' on the NinjaMaster 9000 and its companion opponent, Viking Warrior.
+        Tommy would finally have the AI battle toys he'd been begging for.
+    """
+    narration """
+        She was about to close the website
+        when the confirmation email dinged in her inbox.
+    """
+    nvl clear
+    show crow_crashes_window
+    narration """
+        At that exact moment, a crow struck her bedroom window, glass exploding inward.
+    """
+    nvl clear
+    show rachel_laptop_screaming
+    narration """
+        Rachel screamed as the crow's broken body tumbled onto her laptop, its wings splayed awkwardly, blood smearing across the glowing product photo of the toys. She felt a hot sting across her cheek and temple—glass shards from the shattered window had peppered her face.
+    """
+    nvl clear
+    show crow_on_laptop
+    narration """
+        For a moment, the glowing red eyes of the NinjaMaster seemed to reflect in the bird's unseeing gaze.
+    """
     jump scene_the_burial
-
 
 label scene_the_burial:
     ## Scene 2: The Burial
@@ -87,19 +106,19 @@ label scene_the_burial:
 
     ## CHOICE POINT 1: Tell truth or lie about the crow
     menu:
-        t "Mom? What are you doing?"
+        tommy "Mom? What are you doing?"
 
         "Tell him the truth about the dead bird":
             $ told_truth_about_crow = True
             $ tommy_trust += 10
-            r "I'm burying a bird, honey. A crow flew through my window and... it didn't make it."
-            t "Oh... that's sad. Can I help?"
+            rachel "I'm burying a bird, honey. A crow flew through my window and... it didn't make it."
+            tommy "Oh... that's sad. Can I help?"
 
         "Lie and say she's planting a flower":
             $ told_truth_about_crow = False
             $ tommy_trust -= 10
-            r "Just planting a flower, sweetie. Nothing to worry about."
-            t "But it doesn't look like a flower..."
+            rachel "Just planting a flower, sweetie. Nothing to worry about."
+            tommy "But it doesn't look like a flower..."
 
     jump act1_research
 
