@@ -23,10 +23,10 @@ define narration = Character(None, kind=nvl)
 ## Track player choices
 
 default told_truth_about_crow = False
-
 default sedated_tommy = False
-
 default stayed_awake = False
+default crow_buried = False
+default rachel_first_drink = False
 
 ## Condition tracking
 
@@ -44,18 +44,17 @@ label start:
     scene black
     with fade
 
+    "Blood and Servos"
     "A story about grief, addiction, and the price of bringing back the dead..."
 
-    ## TODO: Add opening narration and atmosphere setting
-
-    jump scene_the_order
+    jump act1_the_order
 
 
 ################################################################################
-## INTRO
+## ACT 1
 ################################################################################
 
-label scene_the_order:
+label act1_the_order:
     ## Scene 1: The Order
     ## Location: Rachel's bedroom
     scene house_exterior
@@ -89,36 +88,76 @@ label scene_the_order:
     narration """
         For a moment, the glowing red eyes of the NinjaMaster seemed to reflect in the bird's unseeing gaze.
     """
-    jump scene_the_burial
+    nvl clear
 
-label scene_the_burial:
+    menu:
+        "Rachel's nerves are frayed. But she must do something about the crow. What should she do?"
+
+        "Get a drink before burying the crow":
+            $ rachel_exhaustion += 1
+            $ rachel_sanity += 1
+            $ crow_buried = True
+            $ rachel_first_drink = True
+            jump act1_the_burial
+        "Bury the crow but stay sober":
+            $ rachel_exhaustion += 0
+            $ rachel_sanity += 0
+            $ crow_buried = True
+            jump act1_the_burial
+        "Don't bury the crow. Throw it in the trash":
+            $ rachel_exhaustion += 1
+            $ rachel_sanity += 0
+            $ rachel_first_drink = True
+            jump act1_research
+
+label act1_the_burial:
     ## Scene 2: The Burial
     ## Location: Backyard
 
     scene backyard
     with fade
+    if rachel_first_drink:
+        narration """
+            Later that morning, after having stiffened her nerves with a double serving of
+            her favorite cocktail: vodka with a lot of ice, a little bit of lemonade (with a side of prozac),
+            Rachel carefully carried the crow's lifeless body into the backyard.
+        """
+    else:
+        narration "Rachel carefully carried the crow's lifeless body into the backyard."
+    
+    nvl clear
+    narration """
+        The sun was already high, casting long shadows across the dew-kissed grass.
+        She found a small spade in the shed and began to dig a shallow grave beneath the old oak tree.
+        The earth was soft and damp, and the rhythmic scrape of the spade against the soil was the
+        only sound breaking the silence.
+    """
+    nvl clear
 
-    ## TODO: Adapt manuscript content here
-    ## - Rachel buries the crow
-    ## - Tommy discovers her
-
-    "Placeholder: Rachel digs in the backyard..."
-
-    ## CHOICE POINT 1: Tell truth or lie about the crow
+    tommy "Mommy, what are you doing?"
+    ## CHOICE POINT 2: Tell truth or lie about the crow
+    narration "Rachel startled, dropping the spade. Tommy stood at the back door, his eyes wide with curiosity. He was still in his pajamas."
+    nvl clear
     menu:
-        tommy "Mom? What are you doing?"
 
         "Tell him the truth about the dead bird":
             $ told_truth_about_crow = True
-            $ tommy_trust += 10
             rachel "I'm burying a bird, honey. A crow flew through my window and... it didn't make it."
             tommy "Oh... that's sad. Can I help?"
 
         "Lie and say she's planting a flower":
             $ told_truth_about_crow = False
-            $ tommy_trust -= 10
+            $ tommy_trust -= 1
             rachel "Just planting a flower, sweetie. Nothing to worry about."
-            tommy "But it doesn't look like a flower..."
+            tommy "..."
+            narration "Rachel's heart pounded"
+            nvl clear
+
+    rachel "It's just a... a little bird that wasn't feeling well. We're helping it go to sleep."
+    rachel "It's okay, honey. Everything's okay."
+    tommy "..."
+    narration "But it wasn't. The crow wouldn't leave her mind."
+    nvl clear
 
     jump act1_research
 
@@ -140,7 +179,14 @@ label act1_research:
     ## - Wine glass with "Nevermore Sober!!"
     ## - Reflects on addiction
 
-    "Placeholder: Rachel drinks and researches..."
+    narration """
+        In the evening, while researching bird behaviour on the couch,
+        this time mixing her red bull with vodka, Rachel felt drowsy. The caffeine wasn’t
+        doing anything. Neither was the liquor. She knew she’d overdone it today, that she
+        would go on another binge, and she would pay for it later with a hangover.
+        A hangover that would go on for days, and each horrible day you felt like you were dying.
+    """
+    nvl clear
 
     jump act1_flashback_lab
 
