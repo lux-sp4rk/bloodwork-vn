@@ -34,9 +34,9 @@ She slept on the couch—bed too big, too empty—TV on, pills with vodka. She t
 
 *She'd told herself that before.*
 
-The university lab buzzed under hard fluorescents. Rachel took a pull from the “water” bottle, hands unsteady over the slides. David’s voice was low: "You okay?" She nodded. Then the dean stepped in. Panic.
+The university lab buzzed under hard fluorescents. Rachel took a pull from the "water" bottle, hands unsteady over the slides. David, the senior coordinator, kept his voice low: "You okay?" She nodded, but he could smell the vodka. He'd been covering for her—they all had. The students loved her, praised her late nights helping them. Even when the dean came by, they'd jumped to her defense.
 
-By the next day, she was on leave—get help, come back later. She knew what it meant.
+But the dean had noticed. The next day, she was on leave—get help, come back later. The look in his eyes told her the truth: it was final.
 
 She woke with a headache, poured a vodka cranberry, then another.
 

@@ -1360,9 +1360,16 @@ style nvl_button is button
 style nvl_button_text is button_text
 
 style nvl_window:
+    xfill False
+    yfill False
     xalign 0.5
-    yalign 0.5
-    padding gui.nvl_borders.padding
+    yalign 1.0  # Align to bottom
+    yanchor 1.0  # Anchor at bottom
+    xsize 1000  # Adjust this to control window width
+    ysize None  # Auto-size to fit content
+    padding (20, 20, 20, 20)  # Reduced padding: left, top, right, bottom
+    yoffset -50  # Offset from bottom edge
+    background Frame("gui/textbox.png", Borders(0, 0, 0, 0), tile=False)  # Optional: add background
 
 style nvl_entry:
     xfill True

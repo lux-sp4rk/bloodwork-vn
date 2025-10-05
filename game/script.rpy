@@ -14,7 +14,7 @@ define david = Character("David", color="#99ccff")
 define dean = Character("Dean", color="#cccccc")
 
 ## Narrator for internal thoughts and descriptions
-define narration = Character(None, kind=nvl)
+define narration = Character(None, kind=nvl, centered=True, vcentered=True)
 
 ################################################################################
 ## Story Variables
@@ -81,7 +81,11 @@ label act1_the_order:
     nvl clear
     show rachel_laptop_screaming
     narration """
-        Rachel screamed as the crow's broken body tumbled onto her laptop, its wings splayed awkwardly, blood smearing across the glowing product photo of the toys. She felt a hot sting across her cheek and temple—glass shards from the shattered window had peppered her face.
+        Rachel screamed as the crow's broken body tumbled onto her laptop, its wings splayed awkwardly,
+        blood smearing across the glowing product photo of the toys
+        \n
+        \n
+        She felt a hot sting across her cheek and temple—glass shards from the shattered window had peppered her face.
     """
     nvl clear
     show crow_on_laptop
@@ -97,17 +101,8 @@ label act1_the_order:
             $ rachel_exhaustion += 1
             $ rachel_sanity += 1
             $ crow_buried = True
-            $ rachel_first_drink = True
-            jump act1_the_burial
-        "Bury the crow but stay sober":
-            $ rachel_exhaustion += 0
-            $ rachel_sanity += 0
-            $ crow_buried = True
             jump act1_the_burial
         "Don't bury the crow. Throw it in the trash":
-            $ rachel_exhaustion += 1
-            $ rachel_sanity += 0
-            $ rachel_first_drink = True
             jump act1_research
 
 label act1_the_burial:
@@ -116,14 +111,12 @@ label act1_the_burial:
 
     scene backyard
     with fade
-    if rachel_first_drink:
-        narration """
-            Later that morning, after having stiffened her nerves with a double serving of
-            her favorite cocktail: vodka with a lot of ice, a little bit of lemonade (with a side of prozac),
-            Rachel carefully carried the crow's lifeless body into the backyard.
-        """
-    else:
-        narration "Rachel carefully carried the crow's lifeless body into the backyard."
+
+    narration """
+        Later that morning, after having stiffened her nerves with a double serving of
+        her favorite cocktail: vodka with a lot of ice, a little bit of lemonade (with a side of prozac),
+        Rachel carefully carried the crow's lifeless body into the backyard.
+    """
     
     nvl clear
     narration """
@@ -150,21 +143,15 @@ label act1_the_burial:
             $ tommy_trust -= 1
             rachel "Just planting a flower, sweetie. Nothing to worry about."
             tommy "..."
-            narration "Rachel's heart pounded"
-            nvl clear
 
     rachel "It's just a... a little bird that wasn't feeling well. We're helping it go to sleep."
-    rachel "It's okay, honey. Everything's okay."
     tommy "..."
+    rachel "It's okay, honey. Everything's okay."
     narration "But it wasn't. The crow wouldn't leave her mind."
     nvl clear
 
     jump act1_research
 
-
-################################################################################
-## ACT 1
-################################################################################
 
 label act1_research:
     ## Scene 3: Research and Reflection
@@ -173,21 +160,36 @@ label act1_research:
     scene living_room
     with fade
 
-    ## TODO: Adapt manuscript content here
-    ## - Rachel drinks vodka and Red Bull
-    ## - Researches bird behavior
-    ## - Wine glass with "Nevermore Sober!!"
-    ## - Reflects on addiction
-
+    show rachel_researching_birds
     narration """
         In the evening, while researching bird behaviour on the couch,
-        this time mixing her red bull with vodka, Rachel felt drowsy. The caffeine wasn’t
-        doing anything. Neither was the liquor. She knew she’d overdone it today, that she
+        this time mixing her with vodka with Red Bull, Rachel felt drowsy. The caffeine wasn't
+        doing anything. Neither was the liquor. She knew she'd overdone it today, that she
         would go on another binge, and she would pay for it later with a hangover.
         A hangover that would go on for days, and each horrible day you felt like you were dying.
     """
     nvl clear
-
+    show crow_crashes_window
+    narration """The image of the crow shattering the window kept replaying in her mind. The sound of it.
+        The spray of glass. Birds hit windows all the time, sure—they see sky in the reflection,
+        or their own rival staring back. But crows? Crows were too smart for that. They remembered faces.
+        They held grudges. They didn't just throw themselves at glass like drunken moths.
+        Unless it had gorged on fermented berries. Unless it was sick.
+        Unless it was something else entirely.
+    """
+    nvl clear
+    show rachel_watches_tv
+    narration """
+        She slept on the couch now—bed too big, too empty— and with the TV on.
+        She hesitated before taking another swig of vodka and swallowing another pill.
+        But she told herself it was temporary.
+        She wouldn’t let it get out of control again. Not with Tommy.
+    """
+    nvl clear
+    narration """
+        {i}She'd told herself that before.{/i}
+    """
+    nvl clear
     jump act1_flashback_lab
 
 
