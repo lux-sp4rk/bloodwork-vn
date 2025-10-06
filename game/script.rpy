@@ -112,6 +112,7 @@ label act1_the_burial:
     scene backyard
     with fade
 
+    show rachel_takes_crow_outside
     narration """
         Later that morning, after having stiffened her nerves with a double serving of
         her favorite cocktail: vodka with a lot of ice, a little bit of lemonade (with a side of prozac),
@@ -119,8 +120,8 @@ label act1_the_burial:
     """
     
     nvl clear
+    show rachel_buries_crow
     narration """
-        The sun was already high, casting long shadows across the dew-kissed grass.
         She found a small spade in the shed and began to dig a shallow grave beneath the old oak tree.
         The earth was soft and damp, and the rhythmic scrape of the spade against the soil was the
         only sound breaking the silence.
@@ -191,7 +192,6 @@ label act1_research:
     """
     nvl clear
     jump act1_flashback_lab
-
 
 label act1_flashback_lab:
     ## Scene 4: University Flashback - The Lab

@@ -44,13 +44,13 @@ Feeling better, she made her way to her room, pausing at Tommy’s doorway. He l
 
 She still loved to say “Captain Branson”, letting it linger on her lips like a kiss.
 
-He hadn’t died in battle, like so many assumed – an assumption she quietly encouraged – but in a drunken accident at last year’s Thanksgiving dinner. On a dare, he’d climbed out a second-story window, boasting about his mountain goat reflexes. One wrong step, and he was gone. Rachel could still hear his voice sometimes, teasing her: “I must’ve been a mountain goat in a past life!” The memory brought a bitter smile to her lips.
+He hadn’t died in battle, like so many assumed – an assumption she quietly encouraged – but in a drunken accident only a few months ago at Thanksgiving dinner. On a dare, he’d climbed out a second-story window, boasting about his mountain goat reflexes. One wrong step, and he was gone. Rachel could still hear his voice sometimes, teasing her: “I must’ve been a mountain goat in a past life!” He had been an avid climber, his dream of summiting Everest never realized. The memory brought a bitter smile to her lips.
 
-Old compulsions had a way of returning. After Ethan’s deployments it was food; now it was vodka and pills. “Addict,” she tested the word. It tasted like metal.
+Old compulsions had a way of returning. After Ethan’s deployments it was food; now it was liquor and pills. “Addict,” she tested the word. It tasted like metal.
 
-A noise startled her. Faint at first, like a mechanical hum, but growing louder. She sat up groggily, her wine glass, printed with a drunken crow and the words “Nevermore Sober!!”, half-full of cranberry vodka tipping over onto the carpet.
+A noise startled her. Faint at first, like a mechanical hum, but growing louder. She sat up groggily, her wine glass, which never held wine anymore, was printed with a drunken crow and the words “Nevermore Sober!!”.  Half-full of cranberry vodka, she tipped it over onto the carpet when she heard the metallic voice.
 
-Then a metallic voice pierced the quiet: "By the blood of the dragon, target confirmed!"
+"By the blood of the dragon, target confirmed!"
 
 Tommy’s scream followed, sharp and panicked.
 
