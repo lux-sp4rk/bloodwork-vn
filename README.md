@@ -1,149 +1,46 @@
 # Blood and Servos
 
-A horror visual novel about artificial intelligence, grief, and the price of bringing back the dead.
+A horror visual novel about artificial intelligence, grief, and the price of bringing back the dead. Based on the manuscript "Digital Death Dolls."
 
-Based on the manuscript "Digital Death Dolls."
+## Project Overview
 
-## Project Structure
-
-```
-digital-death-dolls/
-├── docs/                    # Design documentation and manuscript
-│   ├── design-brief.md      # Visual novel design brief
-│   ├── characters.md        # Character profiles
-│   ├── manuscript.md        # Original story manuscript
-│   └── plot.md             # Scene-by-scene plot breakdown
-├── game/                    # Ren'Py game files
-│   ├── audio/              # Sound effects and music
-│   │   ├── music/          # Background music tracks
-│   │   └── sfx/            # Sound effects
-│   ├── gui/                # GUI images and overlays
-│   ├── images/             # Scene backgrounds and illustrations
-│   ├── gui.rpy             # GUI configuration
-│   ├── options.rpy         # Game options and settings
-│   ├── screens.rpy         # UI screens definition
-│   └── script.rpy          # Main story script (Intro + Act 1)
-├── CLAUDE.md               # Instructions for Claude Code
-└── README.md               # This file
-```
+- **Engine:** [Ren'Py 8.x](https://www.renpy.org/)
+- **Genre:** Kinetic Novel+ (linear narrative with key choice points)
+- **Target Release:** Halloween 2025
 
 ## Development Status
 
-### ✅ Completed
-- Basic Ren'Py project structure
-- Configuration files (options.rpy, gui.rpy, screens.rpy)
-- Script outline for Intro and Act 1
-- Placeholder asset structure
+- ✅ Basic Ren'Py structure & core configuration.
+- 🚧 Script adaptation (Intro + Act 1) and placeholder assets.
+- 📋 TODO: Act 2 & 3 scripts, endings, full asset creation (visuals/audio).
 
-### 🚧 In Progress
-- Script adaptation from manuscript (Intro + Act 1 only)
-- Asset creation (images, audio)
+## Quick Start
 
-### 📋 TODO
-- Complete script for Act 2
-- Complete script for Act 3
-- Implement ending variations
-- Create/source scene background images
-- Create/source GUI graphics
-- Generate music tracks (via AI tools like Suno)
-- Source/create sound effects
-- Create key scene illustrations
-- Implement endings gallery
-- Playtesting and polish
+1. Install the [Ren'Py SDK](https://www.renpy.org/).
+2. Add this project folder to the Ren'Py launcher.
+3. Click **Launch Project**.
 
-## Setup Instructions
+*Note: Many assets are currently placeholders. Scenes may appear blank or use generic graphics.*
 
-### Prerequisites
-1. Install Ren'Py SDK from https://www.renpy.org/
-2. Python 3 (for any custom tooling)
+## Project Structure
 
-### Running the Game
-1. Open the Ren'Py launcher
-2. Add the `digital-death-dolls` directory as a project
-3. Click "Launch Project"
-
-**Note:** Currently, many assets are placeholder files. The game will run but scenes will appear blank until proper images are added.
-
-## Asset Requirements
-
-### Images Needed
-- **GUI elements** (game/gui/):
-  - Main menu background (1920x1080)
-  - Game menu background
-  - Textbox (1280x240)
-  - Namebox (360x80)
-  - Window icon
-
-- **Scene backgrounds** (game/images/):
-  - bedroom.png - Rachel's bedroom
-  - backyard.png - Backyard with oak tree
-  - living_room.png - Living room/couch
-  - lab_flashback.png - University paleontology lab
-  - tommy_bedroom_doorway.png - View into Tommy's room
-  - tommy_bedroom.png - Tommy's bedroom interior
-
-### Audio Needed
-- **Music** (game/audio/music/):
-  - Main menu theme
-  - Home atmosphere (tense, quiet)
-  - Flashback scenes (sad, nostalgic)
-
-- **Sound Effects** (game/audio/sfx/):
-  - mechanical_hum.ogg - Toy servo sounds
-  - Crow crash/window breaking
-  - Footsteps
-  - Ambient horror
-
-## Story Structure
-
-### Intro
-- Scene 1: The Order (crow crashes through window)
-- Scene 2: The Burial (first choice point)
-
-### Act 1
-- Scene 3: Research and Reflection
-- Scene 4: University Flashback - The Lab
-- Scene 5: Nighttime Vigil
-- Scene 6: First Attack (second choice point)
-
-### Act 2 (TODO)
-- Scenes 7-10
-
-### Act 3 (TODO)
-- Scenes 11-15
-
-### Endings (TODO)
-- Ending 1: Tragic Fall
-- Ending 2: Sacrifice
-- Ending 3: Survivor's Guilt
-- Ending 4: Descent
+- `docs/`: Design, characters, manuscript, and plot breakdown.
+- `game/`: Ren'Py source code (`script.rpy`, `options.rpy`, etc.) and assets (`images/`, `audio/`, `gui/`).
 
 ## Design Philosophy
 
-This is a **Kinetic Novel+** - primarily linear narrative with 2-3 major choice points that lead to different endings. This approach:
-- Preserves the tragic, inevitable spiral of Rachel's story
-- Maintains horror pacing and atmosphere
-- Allows focus on polish rather than extensive branching
-- Provides meaningful player agency at key emotional moments
+**Kinetic Novel+**: Primarily linear narrative with 2-3 major choice points leading to different endings. This maintains horror pacing while providing meaningful emotional agency at key moments.
 
-## Technical Notes
+## Technical Details
 
+- **Resolution:** 1920x1080
+- **Theme:** Dark horror (blacks, dark reds, grays)
 - **Engine:** Ren'Py 8.x
-- **Target Resolution:** 1920x1080
-- **Horror Theme:** Dark color palette (dark reds, blacks, grays)
-- **Text Speed:** 50 cps default
-- **Save System:** Ren'Py built-in
-
-## License
-
-[Add license information here]
 
 ## Credits
 
-Story: [Author name]
-Adaptation: [Your name]
-Engine: Ren'Py
+- **Story:** Based on "Digital Death Dolls"
+- **Engine:** Ren'Py
 
 ---
-
 *Target Release: Halloween 2025*
