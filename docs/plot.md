@@ -22,10 +22,10 @@
 - **Characters**: Rachel
 - **Summary**: That evening, Rachel researches bird behavior while drinking vodka and Red Bull, feeling drowsy despite the caffeine. She obsesses over why a crow—too intelligent for such mistakes—would crash into her window. She knows she's overdone the drinking and will pay for it with a multi-day hangover. She sleeps on the couch with TV on, mixing pills with vodka, telling herself it's temporary and won't get out of control again.
 
-### Scene 4: University Flashback - The Lab
-- **Location**: University paleontology lab
-- **Characters**: Rachel, David (senior lab coordinator), Dean, students
-- **Summary**: Rachel drinks vodka from a water bottle at work; students and David cover for her during the dean's visit, but she's later put on leave.
+### Scene 4: Tech Office Flashback - The Standup
+- **Location**: Open-plan tech office, conference room with glass walls
+- **Characters**: Rachel, David (tech lead), Manager, coworkers
+- **Summary**: Rachel drinks vodka from a water bottle at her desk. She'd been debugging the NinjaMaster recommendation algorithm before it launched—toying with edge cases, adversarial inputs. Coworkers and David cover for her during the manager's surprise review, but she's later called into HR and laid off. She remembers the code: fail-safes, behavioral constraints, the sandboxed environment. The toys shouldn't be able to do what they're doing.
 
 ### Scene 5: Nighttime Vigil
 - **Location**: Tommy's doorway

@@ -4,13 +4,14 @@
 
 ### Rachel
 
-- **Role**: Protagonist, mother, former paleontologist
-- **Background**: Recently widowed, former university professor specializing in paleontology
-- **Current situation**: On leave from university, struggling with substance abuse (alcohol + Prozac)
+- **Role**: Protagonist, mother, former software engineer
+- **Background**: Recently widowed, former backend engineer at a mid-sized AI/ML company
+- **Current situation**: Laid off three months ago, struggling with substance abuse (alcohol + Prozac)
 - **Physical**: Describes herself as "on the short side of tall"; sustains escalating injuries throughout story
 - **Look**: Late 20s/early 30s woman, shoulder-length dark hair, white hoodie, blue jeans
 - **Key traits**:
-  - Intelligent, analytical mind from scientific background
+  - Intelligent, analytical mind from engineering background
+  - Knows how AI systems should work—recognizes when the toys behave impossibly
   - Struggling with addiction (vodka in various combinations, anxiety medication)
   - History of bulimia during Ethan's deployments; compulsions shift to vodka and pills after his death
   - Tests the word "Addict" on her tongue—tastes like metal
@@ -18,8 +19,8 @@
   - Smoker (cigarettes)
 - **Drinking habits**: Vodka with ice and lemonade (with Prozac), vodka and Red Bull, cranberry vodka, vodka cranberry, gin with ice and seltzer; owns wine glass printed with drunken crow and "Nevermore Sober!!"
 - **Progressive injuries**: Glass shards to face/temple from crow incident (one shard stays embedded below eye until Act 3, becomes infected); cut forearm and injured wrist from first Ninja attack; knife through palm severing tendons; nail through foot; burns; deep chest wound from glass shard; cheek laid open to teeth
-- **Arc**: Put on leave from university due to drinking, battles AI toys to protect her son, dies falling from window while fighting the decapitated Ninja
-- **Relationship to fossils/death**: Works with ancient bones, feels kinship with dead things after Ethan's death
+- **Arc**: Laid off from tech job due to drinking and performance decline, battles AI toys to protect her son, dies falling from window while fighting the decapitated Ninja
+- **Relationship to systems/code**: She debugs the impossible—sees the NinjaMaster's behavior as a bug that shouldn't exist, a stack trace in physical form
 
 ### Tommy
 
@@ -45,21 +46,21 @@
 
 ### David
 
-- **Role**: Rachel's lab partner at the university
-- **Physical**: Older faculty member with gray hair and long gray beard, close to retirement
-- **Key traits**: Sympathetic, covers for Rachel's drinking, warns her she can't continue
-- **Function**: Represents the department's support and Rachel's deteriorating professional life
+- **Role**: Rachel's former tech lead at the AI company
+- **Physical**: Mid-40s, perpetually tired eyes, close-cropped beard going gray at the temples
+- **Key traits**: Sympathetic, covered for Rachel's drinking and missed deadlines, warned her privately she couldn't keep going
+- **Function**: Represents the team's support and Rachel's deteriorating professional life
 
-### The Dean
+### The Manager/HR
 
-- **Role**: University administrator
-- **Key traits**: Stern, observant, ultimately puts Rachel on leave
-- **Function**: Authority figure who ends Rachel's academic career despite students' attempts to cover for her
+- **Role**: Company administrator (former "Dean")
+- **Key traits**: Stern, observant, processes layoff despite team's attempts to cover
+- **Function**: Authority figure who ends Rachel's tech career
 
-### University Students
+### Coworkers
 
-- **Role**: Rachel's students in paleontology
-- **Key traits**: Loyal, protective of popular professor, cover for her during dean's visit
+- **Role**: Rachel's team at the AI company
+- **Key traits**: Loyal, protective, covered for her missed standups and buggy commits
 - **Function**: Show Rachel was once competent and valued before her decline
 
 ## Antagonists

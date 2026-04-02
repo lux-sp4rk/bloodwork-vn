@@ -11,7 +11,7 @@
 define rachel = Character("Rachel", color="#c8c8ff")
 define tommy = Character("Tommy", color="#ffcc99")
 define david = Character("David", color="#99ccff")
-define dean = Character("Dean", color="#cccccc")
+define manager = Character("Manager", color="#cccccc")
 
 ## Narrator for internal thoughts and descriptions
 define narration = Character(None, kind=nvl, centered=True, vcentered=True)
@@ -194,19 +194,21 @@ label act1_research:
     jump act1_flashback_lab
 
 label act1_flashback_lab:
-    ## Scene 4: University Flashback - The Lab
-    ## Location: University paleontology lab
+    ## Scene 4: Tech Office Flashback - The Standup
+    ## Location: Open-plan tech office, conference room with glass walls
 
     scene lab_flashback
     with fade
 
     ## TODO: Adapt manuscript content here
-    ## - Rachel drinking at work
-    ## - David and students cover for her
-    ## - Dean's visit
-    ## - Put on leave
+    ## - Rachel drinks vodka from water bottle at her desk
+    ## - She'd been debugging the NinjaMaster recommendation algorithm
+    ## - Knows the fail-safes, sandboxing, behavioral constraints
+    ## - The toys shouldn't be able to do what they're doing
+    ## - Coworkers and David cover for her during manager's review
+    ## - HR meeting, termination
 
-    "Placeholder: Flashback to the university lab..."
+    "Placeholder: Flashback to the tech office..."
 
     jump act1_nighttime_vigil
 
