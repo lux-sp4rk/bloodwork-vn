@@ -36,20 +36,20 @@
 - **Injuries**: Multiple stab wounds to chest and collarbone from NinjaMaster's sharpened plastic sword; blood soaks through dinosaur pajamas; deep puncture wounds that continue oozing; one cut deep enough to expose fat layer beneath skin
 - **Arc**: Traumatized by toy attacks, sedated by mother with crushed pills in milk, orphaned by story's end
 
-### Captain Ethan Branson (deceased) — THE HOST
+### Captain Ethan Branson (deceased)
 
-- **Role**: Rachel's late husband, Tommy's father, original victim of the crow
-- **Background**: Army captain, rose through ranks quickly, came from poor "trailer trash" background, three deployments overseas
-- **Physical**: Shorter than Rachel, commanding presence — though "commanding" takes on a darker meaning once the crow moved in
-- **Death**: Fell from second-story window at Thanksgiving, one year before story events. Officially a drunken accident. Actually: the crow was done with him.
-- **The truth (hidden from reader until Act 3)**: Ethan encountered the crow on his second or third deployment — not as a messenger, but as a *host*. The crow crawled inside him, wore his body like a coat, used his voice and his love for Rachel to keep the bargain active. When the crow found a better offer — Rachel, Tommy, a slower harvest — it pushed Ethan out the window.
-- **Key traits (before)**: Self-made, driven, escape artist from poverty, climber who wanted Everest, mountaineer of both mountains and ambition
-- **Key traits (after crow moved in)**: More confident, more commanding — but wrong in ways Rachel couldn't name. He spoke differently sometimes. He stared at walls like he was listening to something nobody else could hear. He started sleepwalking. He wanted the lights off more than usual. He told Rachel he loved her in ways that felt like performances.
-- **The mountain goat line**: Not Ethan bragging. The crow talking through him, preening, daring death to collect what it was owed. "I must've been a mountain goat in a past life" — the crow taunting whatever comes to take souls, promising it can't be caught.
-- **What Ethan tried to do**: Before the window, before the fall, Ethan was *running*. Something in him that was still Ethan — still the man who loved his family more than his own survival — tried to warn Rachel. He grabbed her shoulders at Thanksgiving and said something she couldn't understand. She thought he was too drunk. He said: "If anything ever happens to me, don't let Tommy near my things." She laughed it off as dark humor.
-- **What Ethan actually knew**: The crow was leaving. Ethan was the lesser bargain. Rachel and Tommy were the real payment. He couldn't say it directly — the crow wouldn't let him — but he tried. He failed. He fell.
-- **Rachel's unconscious knowledge**: She married a man who came back wrong. She's been trying to drink the wrongness out of herself ever since, because she can feel it circling and she knows she was the replacement. She just doesn't know it consciously yet.
-- **Impact on Tommy**: Tommy was three when his father died. He remembers Ethan partly — the shape of his hands, the sound of his laugh — but there's a gap where his father's face should be. A wrongness he can't name. Tommy draws the NinjaMaster with red eyes before it arrives because some part of him recognizes what the crow looks like wearing a body.
+- **Role**: Rachel's late husband, Tommy's father, the one who brought it home
+- **Background**: Army captain, rose through ranks quickly, came from poor "trailer trash" background, three deployments to the Middle East
+- **Physical**: Shorter than Rachel, commanding presence
+- **Death**: Fell from second-story window at Thanksgiving, one year before story events. Officially a drunken accident.
+- **The truth (hidden from reader until Act 3)**: On deployment, Ethan found something — a fetish, an idol, an object buried somewhere it had no business being. Old enough to have been waiting. He thought it was a souvenir. He brought it home. Put it on a shelf. Showed Rachel. Maybe Tommy touched it once.
+- **How the fetish works**: The entity doesn't need possession. It just needs proximity. The fetish is a beacon — the entity has been circling the house since Ethan brought it home, reading the family, waiting for the right moment to start collecting. Ethan wasn't special. He just opened the door by bringing it inside.
+- **Ethan's awareness**: He figured it out. Eventually. The way the house felt wrong when the lights were off. The way he couldn't sleep. The way something in him said *this isn't yours anymore* every time he looked at the object on the shelf. He tried to get rid of it. He couldn't. It was his.
+- **The mountain goat line**: Ethan bragging about his climbing skills — but underneath, he knew. He knew he was going to fall. The entity doesn't kill directly — it just makes you climb where you shouldn't, jump when you shouldn't. Ethan fell because somewhere in his body, something wanted him to.
+- **What Ethan tried to do**: Before Thanksgiving, Ethan was trying to warn Rachel. "Keep Tommy away from my things." She thought he meant his clothes, his books, his gear from deployment. He meant the fetish. He couldn't say it directly — he could barely admit it to himself — but he tried. He failed.
+- **The Thanksgiving window**: Ethan on the sill, calculating the fall — either him trying to destroy the fetish by destroying himself (it was his, if he died maybe it would follow him) or the entity already pushing him toward the window because the signal was stronger outside, closer to the birds, closer to the natural vessel. Either way: he fell, the fetish stayed in the house, the entity settled in.
+- **Rachel's unconscious knowledge**: She married a man who came back with something in his bag. She's been trying to drink the wrongness out of herself ever since. She can feel it circling. She doesn't know what it is. She just knows she's been standing at the edge of something for a year.
+- **Impact on Tommy**: Tommy was three when his father died. He remembers Ethan partly — the shape of his hands, the sound of his laugh — but there's a gap where his father's face should be. He drew the NinjaMaster with red eyes before it came. Something in him recognizes the shape of what killed his father.
 
 ## Minor Characters
 
