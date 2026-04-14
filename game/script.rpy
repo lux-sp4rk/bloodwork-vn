@@ -311,32 +311,142 @@ label act1_first_attack:
 
     play sound "audio/sfx/mechanical_hum.ogg"
 
-    ## TODO: Adapt manuscript content here
-    ## - Mechanical hum
-    ## - Wine glass tips over
-    ## - Tommy screams
-    ## - Ninja attacks with plastic sword
-    ## - Rachel throws toy out window
+    ## Rachel's engineering mind kicks in mid-attack — she spots what's wrong before she can stop herself
 
-    "Placeholder: The Ninja attacks Tommy..."
+    narration """
+        The NinjaMaster's servos whine—wrong. All wrong.
+        The articulation on that arm is a 180-degree arc, but it's holding the sword at 270.
+        That's not in the servo spec sheet. That's not in any spec sheet.
+    """
+    nvl clear
+
+    narration """
+        Rachel's hands are already moving, muscle memory from six years of edge-case debugging.
+        The power draw on those motors doesn't match the battery capacity—it's pulling 2.3 watts
+        on a 0.8 watt rail. She built that circuit. She knows what 2.3 watts looks like when
+        it's been forced past thermal regulation.
+    """
+    nvl clear
+
+    narration """
+        The toy shouldn't be able to do this. She tested for this.
+        She tested for exactly this.
+    """
+    nvl clear
+
+    rachel "Tommy, don't move—"
+
+    narration """
+        Rachel lunged for the toy, fingers finding the battery compartment.
+        A regular person would have thrown it. Rachel opened it first—
+        because she needed to understand.
+    """
+    nvl clear
+
+    menu:
+        "Rachel's engineering instincts take over. What does she try?":
+            jump act1_engineer_response
+
+label act1_engineer_response:
+    ## Rachel's attempted solutions — all wrong framework for the actual threat
+
+    narration """
+        The battery pack slid out. Standard 3.7V LiPo. 1200mAh. 4.44 watt-hours.
+        Nothing unusual. Nothing that should explain 2.3 watts sustained draw.
+        Unless—
+    """
+    nvl clear
+
+    narration """
+        She turned the pack over in her hands. The protection circuit was bypassed.
+        Someone had soldered a direct connection to the motor driver.
+        This wasn't a toy anymore. This was something else wearing a toy.
+    """
+    nvl clear
+
+    narration """
+        {i}Input validation. She could cut the input signal, kill the motor commands at the source.
+        The firmware still had a hard reset—
+        she knew because she wrote it—
+        but the board wasn't responding to any command in the known API.{/i}
+    """
+    nvl clear
+
+    menu:
+        "What does Rachel try next?":
+            jump act1_engineer_fails
+
+label act1_engineer_fails:
+    ## The more she understands, the more helpless she feels
+
+    narration """
+        Rachel pulled out her phone, fingers moving on autopilot.
+        ADB shell. Motor control interface. She still had debug credentials cached from the
+        beta testing phase—she'd never cleared them because she'd never thought to.
+    """
+    nvl clear
+
+    rachel "killall motor_ctrl.elf"
+
+    narration """
+        Command accepted.
+        The NinjaMaster kept moving.
+    """
+    nvl clear
+
+    narration """
+        {i}The process wasn't running. There was no motor_ctrl.elf.
+        There was no process at all. The thing was running on nothing, on thin air, on—{/i}
+    """
+    nvl clear
+
+    narration """
+        She tried grounding the circuit. Exposed metal on the chassis, her own hand as the ground path.
+        Static discharge, maybe. Some feedback loop she could break.
+
+        Her palm met the NinjaMaster's back. The toy didn't shock her. It didn't spark.
+        It turned its head toward her, slowly, deliberately, the way nothing mechanical should.
+    """
+    nvl clear
+
+    narration """
+        {i}The more she understood about how this thing worked, the more certain she was
+        that she understood nothing at all. A normal person would panic and not know why.
+        Rachel panicked and knew exactly why and that was worse.{/i}
+    """
+    nvl clear
+
+    narration """
+        Tommy screamed.
+        Rachel threw the NinjaMaster out the window.
+    """
+    nvl clear
+
+    menu:
+        "How should I help Tommy get through this night?":
+            jump act1_tommy_trauma
+
+label act1_tommy_trauma:
+    ## Scene 7: Tommy's Trauma
+    ## TODO: expand with manuscript content — Rachel helps Tommy process the attack
 
     ## CHOICE POINT 2: How to handle Tommy's trauma
     menu:
-        "How should I help Tommy get through this night?"
+        "How should I help Tommy get through this night?":
 
-        "Give Tommy sedatives (crushed in milk)":
-            $ sedated_tommy = True
-            $ stayed_awake = False
-            $ rachel_exhaustion -= 20
-            r "Just drink this, honey. It'll help you sleep..."
-            "Rachel crushed the pills into Tommy's milk, watching him drink it down."
+            "Give Tommy sedatives (crushed in milk)":
+                $ sedated_tommy = True
+                $ stayed_awake = False
+                $ rachel_exhaustion -= 20
+                r "Just drink this, honey. It'll help you sleep..."
+                "Rachel crushed the pills into Tommy's milk, watching him drink it down."
 
-        "Stay awake with him all night":
-            $ sedated_tommy = False
-            $ stayed_awake = True
-            $ rachel_exhaustion += 30
-            r "It's okay, baby. Mommy's going to stay right here with you."
-            "Rachel settled in for a long, exhausting night..."
+            "Stay awake with him all night":
+                $ sedated_tommy = False
+                $ stayed_awake = True
+                $ rachel_exhaustion += 30
+                r "It's okay, baby. Mommy's going to stay right here with you."
+                "Rachel settled in for a long, exhausting night..."
 
     ## End of Act 1
     scene black
