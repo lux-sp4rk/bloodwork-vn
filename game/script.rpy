@@ -203,8 +203,8 @@ label act1_flashback_lab:
     ## Scene 4: University Lab - Rachel's last days at work
     ## The lab buzzed under hard fluorescents. Rachel's hands were unsteady over the slides.
     ## David — the senior coordinator, gray-bearded, near retirement — had been covering for her.
-    ## They'd all been covering. The students loved her. Even when the dean came by, they'd jumped to her defense.
-    ## But the dean had noticed. It was final.
+    ## They'd all been covering. The students loved her.
+    ## But HR had noticed. It was final.
 
     narration """
         The university lab buzzed under hard fluorescents.
@@ -235,15 +235,9 @@ label act1_flashback_lab:
     nvl clear
 
     narration """
-        Even when the dean walked in, they'd all jumped to her defense.
-    """
-
-    manager "Rachel. My office. Now."
-
-    narration """
-        But the dean had noticed.
+        HR had noticed.
         The next day, she was on leave—{i}get help, come back later.{/i}
-        The look in his eyes told her the truth: it was final.
+        Rachel could already feel the silence where her purpose used to be.
     """
 
     nvl clear
