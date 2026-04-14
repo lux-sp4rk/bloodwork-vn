@@ -12,6 +12,7 @@ define rachel = Character("Rachel", color="#c8c8ff")
 define tommy = Character("Tommy", color="#ffcc99")
 define david = Character("David", color="#99ccff")
 define manager = Character("Manager", color="#cccccc")
+define maya = Character("Maya", color="#ff9999")
 
 ## Narrator for internal thoughts and descriptions
 define narration = Character(None, kind=nvl, centered=True, vcentered=True)
@@ -238,6 +239,45 @@ label act1_flashback_lab:
         The next day, she was on leave—{i}get help, come back later.{/i}
         Rachel could already feel the silence where her purpose used to be.
     """
+
+    nvl clear
+
+    jump act1_maya_call
+
+
+label act1_maya_call:
+    ## Scene 4b: Maya Calls
+    ## Location: Rachel's kitchen, evening
+
+    scene house_exterior
+    with fade
+
+    narration """
+        Rachel was standing at the kitchen counter, pouring a second glass,
+        when her phone buzzed. Maya's name on the screen.
+        She'd been avoiding that name for three weeks.
+    """
+
+    nvl clear
+
+    maya "Hey. I haven't heard from you. Tommy's birthday is next week—are we still on for Sunday?"
+
+    narration "Rachel's hand tightened on the glass."
+
+    rachel "Yeah. No, definitely. Tommy's been asking about it."
+
+
+    maya "You okay? You sound off."
+
+    rachel "Just tired. Long week."
+
+    narration "Silence on the line. Rachel could hear Maya working up to something."
+
+    maya "Look, I know things have been... I worry about you. You know I'm here, right? Ethan would've wanted—"
+
+    rachel "I know. I have to go."
+
+    narration "She hung up before Maya could finish. Poured the vodka down the drain. Then poured another."
 
     nvl clear
 

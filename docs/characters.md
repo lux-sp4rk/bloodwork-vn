@@ -72,6 +72,14 @@
 - **Key traits**: Loyal, protective, covered for her missed standups and buggy commits
 - **Function**: Show Rachel was once competent and valued before her decline
 
+### Maya
+
+- **Role**: Rachel's closest friend, Tommy's godmother
+- **Physical**: Warm, practical energy; the kind of person who shows up with soup and stays for an hour
+- **Key traits**: Persistent, direct about her concern but knows when to back off; Ethan trusted her with the things he couldn't say
+- **Function**: One phone call in Scene 4 — her call is the almost-rescue. She asks about Tommy's birthday, probes Rachel's state, and is deflected. Rachel hangs up. Maya does not reappear.
+- **Note**: The missed birthday plan echoes forward — Tommy's isolation is already beginning.
+
 ## Antagonists
 
 ### NinjaMaster 9000
