@@ -200,15 +200,53 @@ label act1_flashback_lab:
     scene lab_flashback
     with fade
 
-    ## TODO: Adapt manuscript content here
-    ## - Rachel drinks vodka from water bottle at her desk
-    ## - She'd been debugging the NinjaMaster recommendation algorithm
-    ## - Knows the fail-safes, sandboxing, behavioral constraints
-    ## - The toys shouldn't be able to do what they're doing
-    ## - Coworkers and David cover for her during manager's review
-    ## - HR meeting, termination
+    ## Scene 4: University Lab - Rachel's last days at work
+    ## The lab buzzed under hard fluorescents. Rachel's hands were unsteady over the slides.
+    ## David — the senior coordinator, gray-bearded, near retirement — had been covering for her.
+    ## They'd all been covering. The students loved her. Even when the dean came by, they'd jumped to her defense.
+    ## But the dean had noticed. It was final.
 
-    "Placeholder: Flashback to the tech office..."
+    narration """
+        The university lab buzzed under hard fluorescents.
+        Rachel's hands were unsteady over the slides.
+    """
+
+    show computer_checkout_cart
+
+    narration """
+        She'd been debugging the NinjaMaster recommendation algorithm before it launched.
+        Toying with edge cases. Adversarial inputs.
+        She knew the fail-safes, the sandboxing, the behavioral constraints.
+        The toys shouldn't be able to do what they were doing.
+    """
+
+    nvl clear
+
+    david "You okay?"
+
+    rachel "Yeah. Fine."
+
+    narration """
+        David didn't believe her. He could smell the vodka on her breath.
+        He'd been covering for her—they all had.
+        The students loved her. Praised her late nights helping them.
+    """
+
+    nvl clear
+
+    narration """
+        Even when the dean walked in, they'd all jumped to her defense.
+    """
+
+    manager "Rachel. My office. Now."
+
+    narration """
+        But the dean had noticed.
+        The next day, she was on leave—{i}get help, come back later.{/i}
+        The look in his eyes told her the truth: it was final.
+    """
+
+    nvl clear
 
     jump act1_nighttime_vigil
 

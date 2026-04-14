@@ -56,15 +56,15 @@
 ### David
 
 - **Role**: Rachel's former tech lead at the AI company
-- **Physical**: Mid-40s, perpetually tired eyes, close-cropped beard going gray at the temples
+- **Physical**: Mid-40s, perpetually tired eyes, close-cropped beard going gray at the temples — near retirement
 - **Key traits**: Sympathetic, covered for Rachel's drinking and missed deadlines, warned her privately she couldn't keep going
-- **Function**: Represents the team's support and Rachel's deteriorating professional life
+- **Function**: One-scene character. Shows the covering-for-Rachel dynamic on screen in Scene 4 (University Lab). His gray-bearded, near-retirement detail provides texture. No other appearances in the story.
 
 ### The Manager/HR
 
-- **Role**: Company administrator (former "Dean")
+- **Role**: Company administrator (the "Dean") who calls Rachel into his office
 - **Key traits**: Stern, observant, processes layoff despite team's attempts to cover
-- **Function**: Authority figure who ends Rachel's tech career
+- **Function**: One-scene character in Scene 4. The authority figure who ends Rachel's tech career. His brief appearance is the climax of Scene 4.
 
 ### Coworkers
 
