@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+# pre-push hook — block direct pushes to main for narrative/game files
+#
+# Usage: symlink this to .git/hooks/pre-push
+#   ln -s ../../githooks/pre-push .git/hooks/pre-push
+#
+# What it blocks: git push origin main (when game/*.rpy or game/*.rnh were modified)
+# What it allows: pushes to feature branches, non-narrative files to any branch
+
+set -e
+
+NARRATIVE_PATTERNS="game/.*\.rpy game/.*\.rnh"
+PROTECTED_BRANCH="main"
+
+echo ""
+echo "🔒 Pre-push check..."
+
+# Get the branch being pushed
+branch=$(git symbolic-ref --short HEAD 2>/dev/null || git rev-parse --abbrev-ref HEAD 2>/dev/null)
+
+# Check if we're pushing to protected branch
+while read -r local_ref local_sha remote_ref remote_sha; do
+  if [[ "$remote_ref" == "refs/heads/$PROTECTED_BRANCH" ]]; then
+    # Comparing the two commits to find which files changed
+    changed_files=$(git diff --name-only "$local_sha" "$remote_sha" 2>/dev/null || git diff --name-only "$local_ref" "$remote_ref" 2>/dev/null || echo "")
+
+    narrative_touched=false
+    while IFS= read -r file; do
+      [[ -z "$file" ]] && continue
+      for pattern in $NARRATIVE_PATTERNS; do
+        if [[ "$file" =~ ^$pattern$ ]]; then
+          narrative_touched=true
+          break 2
+        fi
+      done
+    done <<< "$changed_files"
+
+    if $narrative_touched; then
+      echo ""
+      echo "✗ Push blocked: narrative files (*.rpy, *.rnh) modified."
+      echo ""
+      echo "  Narrative/game files must go through a PR to main."
+      echo ""
+      echo "  Quick start:"
+      echo "    git checkout -b feat/your-feature-name"
+      echo "    git push origin feat/your-feature-name"
+      echo "    # then open PR at https://github.com/lux-sp4rk/digital-death-dolls/pull/new/feat/your-feature-name"
+      echo ""
+      exit 1
+    fi
+  fi
+done
