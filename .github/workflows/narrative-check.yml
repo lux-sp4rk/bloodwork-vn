@@ -1,0 +1,29 @@
+name: Narrative Check
+
+on:
+  pull_request:
+    paths:
+      - 'game/**/*.rpy'
+      - 'game/**/*.rnh'
+  push:
+    branches:
+      - main
+
+jobs:
+  narrative-nudge:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Narrative files touched
+        run: |
+          echo "This PR modifies narrative script files (*.rpy, *.rnh)."
+          echo ""
+          echo "Consider adding to the PR description:"
+          echo "- What changed and why"
+          echo "- Which scene or character was affected"
+          echo "- Any consequences for other branches"
+          echo ""
+          echo "Narrative coherence checklist:"
+          echo "- [ ] Scene still reads as intended"
+          echo "- [ ] Character voices consistent"
+          echo "- [ ] Branch conditions still make sense"
