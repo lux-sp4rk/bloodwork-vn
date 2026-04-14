@@ -203,7 +203,7 @@ label act1_flashback_lab:
     ## Scene 4: University Lab - Rachel's last days at work
     ## The lab buzzed under hard fluorescents. Rachel's hands were unsteady over the slides.
     ## David — the senior coordinator, gray-bearded, near retirement — had been covering for her.
-    ## They'd all been covering. The students loved her.
+    ## They'd all been covering. David's people had her back.
     ## But HR had noticed. It was final.
 
     narration """
@@ -229,7 +229,6 @@ label act1_flashback_lab:
     narration """
         David didn't believe her. He could smell the vodka on her breath.
         He'd been covering for her—they all had.
-        The students loved her. Praised her late nights helping them.
     """
 
     nvl clear
