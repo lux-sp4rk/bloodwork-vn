@@ -18,7 +18,7 @@ jobs:
       - name: Download Ren'Py SDK
         run: |
           mkdir -p renpy-sdk
-          curl -L "https://www.renpy.org/dl/9.0/RenPy-9.0.0-sdk.tar.bz2" \
+          curl -L "https://www.renpy.org/dl/8.5.2/renpy-8.5.2-sdk.tar.bz2" \
             -o renpy-sdk.tar.bz2
           tar xf renpy-sdk.tar.bz2 -C renpy-sdk --strip-components=1
           echo "SDK ready"
