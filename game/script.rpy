@@ -31,7 +31,8 @@ default rachel_first_drink = False
 
 ## Addiction / Stress Mechanic
 default rachel_stress = 20          # 0-100; crisis at >= 70
-default rachel_booze = 4           # bottles remaining (Sunday store closed)
+default rachel_booze = 1           # bottles remaining — started with 2, crow broke one
+default rachel_shots = 15         # ~7.5 shots per 750ml bottle at 100ml/shot
 default rachel_dependency = 0       # 0-100; fog at >=50, shaky at >=75
 default rachel_fog = False         # locked dialogue options
 default rachel_shaky = False       # harder QTEs
@@ -94,7 +95,9 @@ label stress_crisis_choice:
             jump rachel_cope_attempt
 
 label rachel_takes_drink:
-    $ rachel_booze -= 1
+    $ rachel_shots -= 1
+    if rachel_shots <= 0:
+        $ rachel_booze = 0
     $ rachel_stress -= 40
     $ rachel_dependency += 15
     $ withdrawal_turns_since_drink = 0
@@ -109,7 +112,9 @@ label rachel_takes_drink:
     jump check_stress_crisis
 
 label rachel_takes_drink_critical:
-    $ rachel_booze -= 1
+    $ rachel_shots -= 1
+    if rachel_shots <= 0:
+        $ rachel_booze = 0
     $ rachel_stress -= 40
     $ rachel_dependency += 15
     $ withdrawal_turns_since_drink = 0
@@ -220,6 +225,24 @@ label act1_the_order:
     show crow_on_laptop
     narration """
         For a moment, the glowing red eyes of the NinjaMaster seemed to reflect in the bird's unseeing gaze.
+    """
+    nvl clear
+
+    ## Crow breaks one of two bottles — she started with 2, now has 1 (15 shots)
+    $ rachel_booze = 1
+    $ rachel_shots = 15
+    $ renpy.notify("A bottle of vodka shattered. One left.")
+
+    narration """
+        The crow's body had knocked against the desk on its way in.
+        One of the two bottles of vodka she'd kept next to her laptop was in pieces on the floor,
+        glass and liquor spreading across the hardwood.
+        
+
+        
+
+        The other was still standing. Half full. Fifteen shots, maybe.
+        She'd counted once. She always knew exactly how much she had.
     """
     nvl clear
 

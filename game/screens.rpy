@@ -97,16 +97,15 @@ screen status_screen():
         vbox:
             spacing 8
 
-            ## Booze supply — colored squares as bottle proxies
+            ## Booze supply — shot count
             hbox:
                 spacing 4
-                for i in range(4):
-                    if i < rachel_booze:
-                        add Solid("#8b4513")
-                    else:
-                        add Solid("#2a1a0a")
-
-            null height 4
+                text "SHOTS" size 11 color "#cccccc"
+                if rachel_booze > 0:
+                    text "[rachel_shots]" size 14 color "#8b4513" bold True
+                    text "shots left" size 10 color "#888888"
+                else:
+                    text "EMPTY" size 14 color "#c41e3a" bold True
 
             ## Stress bar
             hbox:
