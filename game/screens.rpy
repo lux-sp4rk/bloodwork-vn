@@ -78,9 +78,77 @@ style frame:
 
 
 ################################################################################
+## Status Screen (Survival HUD)
+################################################################################
+## Displays Rachel's stress, booze supply, and addiction status.
+
+screen status_screen():
+
+    zorder 50
+
+    frame:
+        at status_panel_appear
+        xpos 20
+        ypos 20
+        xsize 280
+        background Frame(Solid("#1a0808aa"), Borders(8, 8, 8, 8))
+        padding (12, 10, 12, 10)
+
+        vbox:
+            spacing 8
+
+            ## Booze supply — colored squares as bottle proxies
+            hbox:
+                spacing 4
+                for i in range(4):
+                    if i < rachel_booze:
+                        add Solid("#8b4513")
+                    else:
+                        add Solid("#2a1a0a")
+
+            null height 4
+
+            ## Stress bar
+            hbox:
+                spacing 6
+                xsize 260
+
+                text "STRESS" size 12 color "#cccccc" yalign 0.5
+
+                bar:
+                    xmaximum 195
+                    ysize 12
+                    value rachel_stress
+                    range 100
+                    left_bar Frame(Solid("#c41e3a"), Borders(2, 2, 2, 2))
+                    right_bar Frame(Solid("#3d0814"), Borders(2, 2, 2, 2))
+                    thumb None
+
+                text "[rachel_stress]" size 11 color "#cccccc" yalign 0.5
+
+            ## Withdrawal timer
+            if rachel_booze == 0 and withdrawal_turns_since_drink > 0:
+                hbox:
+                    spacing 4
+                    text "WITHDRAWAL" size 12 color "#ff4444" bold True
+                    text "([withdrawal_turns_since_drink] turns)" size 12 color "#ff6666"
+
+            ## Addiction debuffs
+            if rachel_fog or rachel_shaky:
+                hbox:
+                    spacing 8
+                    if rachel_fog:
+                        text "FOG" size 11 color "#8888ff" bold True
+                    if rachel_shaky:
+                        text "SHAKY" size 11 color "#ffff44" bold True
+
+transform status_panel_appear:
+    alpha 0
+    linear 0.5 alpha 1.0
+
+################################################################################
 ## In-game screens
 ################################################################################
-
 
 ## Say screen ##################################################################
 ##
