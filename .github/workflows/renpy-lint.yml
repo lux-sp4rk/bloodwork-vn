@@ -11,14 +11,22 @@ on:
 jobs:
   lint:
     runs-on: ubuntu-latest
-    container: renpy/renpy:latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Lint Ren'Py scripts
+      - name: Download Ren'Py SDK
+        run: |
+          mkdir -p renpy-sdk
+          curl -L "https://www.renpy.org/dl/8.5.2/renpy-8.5.2-sdk.tar.bz2" \
+            -o renpy-sdk.tar.bz2
+          tar xf renpy-sdk.tar.bz2 -C renpy-sdk --strip-components=1
+          echo "SDK ready"
+
+      - name: Lint game scripts
         run: |
           for f in game/*.rpy; do
-            renpy-lint "$f" 2>&1 || true
+            echo "=== Linting: $f ==="
+            python3 "renpy-sdk/renpy.py" lint "$f" 2>&1 || true
           done
         continue-on-error: true
