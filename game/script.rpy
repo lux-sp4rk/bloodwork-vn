@@ -29,6 +29,16 @@ default stayed_awake = False
 default crow_buried = False
 default rachel_first_drink = False
 
+## Addiction / Stress Mechanic
+default rachel_stress = 20          # 0-100; crisis at >= 70
+default rachel_booze = 1           # bottles remaining — started with 2, crow broke one
+default rachel_shots = 15         # 1.5L bottle / 100ml per shot = 15 shots
+default rachel_dependency = 0       # 0-100; fog at >=50, shaky at >=75
+default rachel_fog = False         # locked dialogue options
+default rachel_shaky = False       # harder QTEs
+default withdrawal_turns_since_drink = 0  # increments each turn with 0 booze
+default withdrawal_active = False  # body failing without supply
+
 ## Condition tracking
 
 default rachel_exhaustion = 0
@@ -40,6 +50,198 @@ default tommy_trust = 5
 ## Start of the Game
 ################################################################################
 
+
+
+################################################################################
+## ADDICTION / STRESS SYSTEM
+################################################################################
+
+## called after any stress spike. checks threshold and offers drink/cope choice.
+label check_stress_crisis:
+    ## Buzz check — if enough turns passed without drinking, force crisis
+    if withdrawal_turns_since_drink >= 7:
+        jump stress_crisis_choice
+    if rachel_stress >= 70:
+        jump stress_crisis_choice
+    ## No crisis, no drink — turn passes, buzz wears off slightly
+    if rachel_booze == 0:
+        $ withdrawal_turns_since_drink += 1
+    return
+
+label stress_crisis_choice:
+    ## Withdrawal tick — if out of booze, accumulate withdrawal
+    if rachel_booze == 0:
+        $ withdrawal_turns_since_drink += 1
+        if withdrawal_turns_since_drink >= 7:
+            $ withdrawal_active = True
+
+    if withdrawal_active:
+        narration """
+            Rachel's hands are shaking. The room keeps tilting at the edges.
+            Her body is screaming for something that isn't here.
+            She's starting to feel feverish. Her vision is going blurry at the edges.
+            She knows what's coming next if she doesn't drink soon.
+        """
+        menu:
+            "She needs a drink. Any drink." if rachel_booze > 0:
+                jump rachel_takes_drink_critical
+            "She has to push through.":
+                $ rachel_stress += 20
+                $ withdrawal_turns_since_drink += 2
+                narration """"
+                    She steadies herself. Her vision swims.
+
+                    The toys seem to move in the corner of her eye.
+                """
+                jump check_stress_crisis
+        return
+
+    menu:
+        "She needs a drink to get through this." if rachel_booze > 0:
+            jump rachel_takes_drink
+        "Find another way to cope.":
+            jump rachel_cope_attempt
+
+label rachel_takes_drink:
+    $ rachel_shots -= 1
+    if rachel_shots <= 0:
+        $ rachel_booze = 0
+    $ rachel_stress -= 40
+    $ rachel_dependency += 15
+    $ withdrawal_turns_since_drink = 0
+    if rachel_dependency >= 50:
+        $ rachel_fog = True
+    if rachel_dependency >= 75:
+        $ rachel_shaky = True
+    narration """"
+        Rachel poured a drink. The world went soft at the edges.
+        She could breathe again.
+    """
+    jump check_stress_crisis
+
+label rachel_takes_drink_critical:
+    $ rachel_shots -= 1
+    if rachel_shots <= 0:
+        $ rachel_booze = 0
+    $ rachel_stress -= 40
+    $ rachel_dependency += 15
+    $ withdrawal_turns_since_drink = 0
+    $ withdrawal_active = False
+    if rachel_dependency >= 50:
+        $ rachel_fog = True
+    if rachel_dependency >= 75:
+        $ rachel_shaky = True
+    narration """"
+        Her hands shook as she poured. She didn't taste it.
+        The relief was immediate and chemical and it didn't matter what it cost.
+    """
+    jump check_stress_crisis
+
+label rachel_cope_attempt:
+    ## Cope options - good ones narrow as dependency rises
+    if rachel_fog:
+        ## Fog state: constructive options gone, only escape options
+        menu:
+            "Zone out. Disappear into the screen.":
+                narration """"
+                    She stared at the phone. Then put it down.
+                    Easier to disappear than to be seen failing.
+                """
+                $ rachel_stress -= 5
+                $ withdrawal_turns_since_drink += 2
+                jump check_stress_crisis
+            "Pick a fight with Maya in her head.":
+                narration """"
+                    She rehearsed every sharp thing she'd never say.
+                    The anger was easier than the grief.
+                """
+                $ rachel_stress -= 5
+                $ withdrawal_turns_since_drink += 2
+                jump check_stress_crisis
+    elif rachel_dependency >= 30:
+        ## Mid-dependency: healthy options still there but strained
+        menu:
+            "Call Maya." if not renpy.seen_label("maya_called_this_session"):
+                narration """"
+                    She called Maya. The voice on the other end was warm.
+                    Maya did not push. That was enough.
+                """
+                $ rachel_stress -= 15
+                $ withdrawal_turns_since_drink += 1
+                jump check_stress_crisis
+            "Hold Tommy.":
+                narration """"
+                    She held Tommy. The warmth of a living body.
+                    He did not ask questions. She loved him for that.
+                """
+                $ rachel_stress -= 15
+                $ withdrawal_turns_since_drink += 1
+                jump check_stress_crisis
+            "Breathe. Count. Wait.":
+                narration """"
+                    She sat down. She breathed. She counted to ten.
+                """
+                $ rachel_stress -= 10
+                $ withdrawal_turns_since_drink += 1
+                jump check_stress_crisis
+    else:
+        ## Low dependency: full menu of constructive options
+        menu:
+            "Call Maya." if not renpy.seen_label("maya_called_this_session"):
+                narration """"
+                    She called Maya. The voice on the other end was warm.
+                    Just that. Just a warm voice.
+                """
+                $ rachel_stress -= 20
+                $ withdrawal_turns_since_drink += 1
+                jump check_stress_crisis
+            "Hold Tommy.":
+                narration """"
+                    She held Tommy until her heartbeat slowed.
+                    The warmth of a living body was enough. For now.
+                """
+                $ rachel_stress -= 20
+                $ withdrawal_turns_since_drink += 1
+                jump check_stress_crisis
+            "Go outside. Get air.":
+                narration """"
+                    She stepped onto the porch. The air was cool.
+                    For a moment, the world was just air and birdsong.
+                """
+                $ rachel_stress -= 20
+                $ withdrawal_turns_since_drink += 1
+                jump check_stress_crisis
+            "Breathe. Count. Wait.":
+                narration """"
+                    She sat down. She breathed. She counted to ten.
+                    The world held.
+                """
+                $ rachel_stress -= 15
+                $ withdrawal_turns_since_drink += 1
+                jump check_stress_crisisa living body was enough. For now.
+                """
+                $ rachel_stress -= 15
+                $ withdrawal_turns_since_drink += 1
+                jump check_stress_crisis
+            "Breathe. Count. Wait.":
+                narration """"
+                    She sat down. She breathed. She counted to ten.
+                    The world held.
+                """
+                $ rachel_stress -= 15
+                $ withdrawal_turns_since_drink += 1
+                jump check_stress_crisis
+
+################################################################################
+## STRESS SPIKE MACRO — call with e.g. call checkpoint_add_stress(30)
+################################################################################
+
+init python:
+    def add_stress(amount):
+        renpy.store.rachel_stress = min(100, renpy.store.rachel_stress + amount)
+        renpy.jump('check_stress_crisis')
+
+
 label start:
 
     scene black
@@ -47,6 +249,8 @@ label start:
 
     "Blood and Servos"
     "A story about grief, addiction, and the price of bringing back the dead..."
+
+    show screen status_screen
 
     jump act1_the_order
 
@@ -95,6 +299,24 @@ label act1_the_order:
     """
     nvl clear
 
+    ## Crow breaks one of two bottles — she started with 2, now has 1 (15 shots)
+    $ rachel_booze = 1
+    $ rachel_shots = 15
+    $ renpy.notify("One 1.5L bottle shattered. 15 shots left.")
+
+    narration """
+        The crow's body had knocked against the desk on its way in.
+        One of the two bottles of vodka she'd kept next to her laptop was in pieces on the floor,
+        glass and liquor spreading across the hardwood.
+
+
+
+
+        The other was still standing. Half full. Fifteen shots, maybe.
+        She'd counted once. She always knew exactly how much she had.
+    """
+    nvl clear
+
     menu:
         "Rachel's nerves are frayed. But she must do something about the crow. What should she do?"
 
@@ -102,8 +324,12 @@ label act1_the_order:
             $ rachel_exhaustion += 1
             $ rachel_sanity += 1
             $ crow_buried = True
+            $ rachel_stress += 15
+            call check_stress_crisis
             jump act1_the_burial
         "Don't bury the crow. Throw it in the trash":
+            $ rachel_stress += 15
+            call check_stress_crisis
             jump act1_research
 
 label act1_the_burial:
@@ -119,7 +345,7 @@ label act1_the_burial:
         her favorite cocktail: vodka with a lot of ice, a little bit of lemonade (with a side of prozac),
         Rachel carefully carried the crow's lifeless body into the backyard.
     """
-    
+
     nvl clear
     show rachel_buries_crow
     narration """
@@ -279,6 +505,9 @@ label act1_maya_call:
 
     narration "She hung up before Maya could finish. Poured the vodka down the drain. Then poured another."
 
+    $ rachel_stress += 15
+    call check_stress_crisis
+
     nvl clear
 
     jump act1_nighttime_vigil
@@ -335,6 +564,9 @@ label act1_first_attack:
     nvl clear
 
     rachel "Tommy, don't move—"
+
+    $ rachel_stress += 30
+    call check_stress_crisis
 
     narration """
         Rachel lunged for the toy, fingers finding the battery compartment.
@@ -438,6 +670,8 @@ label act1_tommy_trauma:
                 $ sedated_tommy = True
                 $ stayed_awake = False
                 $ rachel_exhaustion -= 20
+                $ rachel_stress += 10
+                call check_stress_crisis
                 r "Just drink this, honey. It'll help you sleep..."
                 "Rachel crushed the pills into Tommy's milk, watching him drink it down."
 
@@ -445,6 +679,8 @@ label act1_tommy_trauma:
                 $ sedated_tommy = False
                 $ stayed_awake = True
                 $ rachel_exhaustion += 30
+                $ rachel_stress += 10
+                call check_stress_crisis
                 r "It's okay, baby. Mommy's going to stay right here with you."
                 "Rachel settled in for a long, exhausting night..."
 
