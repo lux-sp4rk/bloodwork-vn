@@ -1,4 +1,4 @@
-# Blood and Servos (Manuscript)
+# Bloodwork (Manuscript)
 
 Rachel clicked **"Place Order"** on the NinjaMaster 9000 and its companion opponent, Viking Warrior. Tommy would finally have the AI battle toys he'd been begging for. She was about to close the website when the confirmation email dinged in her inbox. At that exact moment, something struck her bedroom window, glass exploding inward.
 

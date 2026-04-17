@@ -2,7 +2,7 @@
 
 ## Project Intent
 
-Ren'Py-based horror/thriller Kinetic Novel+ about AI toys ("Blood and Servos").
+Ren'Py-based horror/thriller Kinetic Novel+ about AI toys ("Bloodwork").
 
 ## Stack & Tooling
 
