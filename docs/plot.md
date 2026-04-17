@@ -2,6 +2,13 @@
 
 ## Intro
 
+### Scene 0: Cold Open — Bathroom (Before Scene 1)
+
+- **Location**: Bathroom
+- **Characters**: Rachel (alone)
+- **Summary**: Rachel is on the bathroom floor, back against the tub. She waits out the vomiting, rinses her mouth, checks her face in the mirror without lingering. Goes to her bedroom, opens the laptop, orders the toys. No context given. No justification. This is just her Tuesday.
+- **Note**: Establishes alcoholism as physical fact before any sympathy context. Flat affect — this is maintenance, not a moment. Hard cut to Scene 1 when she opens the laptop.
+
 ### Scene 1: The Order
 
 - **Location**: Rachel's bedroom

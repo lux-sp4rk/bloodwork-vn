@@ -240,6 +240,51 @@ label start:
 
     show screen status_screen
 
+    jump cold_open_bathroom
+
+
+################################################################################
+## COLD OPEN
+################################################################################
+
+label cold_open_bathroom:
+
+    scene black
+    with fade
+
+    nvl clear
+    narration """
+        The tile was cold through her jeans.
+        She'd been here long enough that it didn't register anymore.
+    """
+    nvl clear
+
+    narration """
+        Her body finished what it was doing.
+        She waited.
+    """
+    nvl clear
+
+    narration """
+        Eventually she got up.
+        Ran the tap. Rinsed twice.
+        Looked at her face in the mirror the way you check a clock — 
+        just to confirm the time, not because you want to know it.
+    """
+    nvl clear
+
+    narration """
+        Tommy was still asleep.
+        She'd heard him turn over twenty minutes ago. Nothing since.
+    """
+    nvl clear
+
+    narration """
+        She went to the bedroom, opened the laptop,
+        and finished what she'd been about to do before.
+    """
+    nvl clear
+
     jump act1_the_order
 
 
