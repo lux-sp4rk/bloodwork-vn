@@ -17,8 +17,8 @@ Ren'Py-based horror/thriller Kinetic Novel+ about AI toys ("Blood and Servos").
 ## Essential Commands
 
 ```bash
-# Run/Launch (External)
-# Use Ren'Py Launcher to add project and "Launch Project"
+# Run/Launch
+npm run dev
 ```
 
 ## Git Workflow

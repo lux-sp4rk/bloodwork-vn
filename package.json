@@ -1,0 +1,8 @@
+{
+  "name": "digital-death-dolls",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bash -c 'find vendor -maxdepth 2 -name \"renpy.sh\" -exec {} . \\;'",
+    "lint:renpy": "bash -c 'RENPY_SH=$(find vendor -maxdepth 2 -name \"renpy.sh\" | head -n 1); if [ -n \"$RENPY_SH\" ]; then $RENPY_SH . lint; else echo \"Warning: RenPy SDK not found in vendor/. Download RenPy SDK to use this script.\"; fi'"
+  }
+}
