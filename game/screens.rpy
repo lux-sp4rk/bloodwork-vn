@@ -426,24 +426,25 @@ screen main_menu():
 
     add gui.main_menu_background
 
-    ## This empty frame darkens the main menu.
-    frame:
-        style "main_menu_frame"
+    ## Title — large, red, centered in upper-middle
+    vbox:
+        style "main_menu_title_vbox"
+        text "[config.name!t]":
+            style "main_menu_title"
 
-    ## The use statement includes another screen inside this one. The actual
-    ## contents of the main menu are in the navigation screen.
-    use navigation
+    ## Navigation — centered at bottom
+    vbox:
+        style "main_menu_nav_vbox"
+        xalign 0.5
+        yalign 1.0
+        yoffset -80
+        spacing 16
 
-    if gui.show_name:
-
-        vbox:
-            style "main_menu_vbox"
-
-            text "[config.name!t]":
-                style "main_menu_title"
-
-            text "[config.version]":
-                style "main_menu_version"
+        textbutton (_("Start")) action Start() style "main_menu_nav_button"
+        textbutton (_("Load")) action ShowMenu("load") style "main_menu_nav_button"
+        textbutton (_("Preferences")) action ShowMenu("preferences") style "main_menu_nav_button"
+        textbutton (_("About")) action ShowMenu("about") style "main_menu_nav_button"
+        textbutton (_("Quit")) action Quit(confirm=not main_menu) style "main_menu_nav_button"
 
 
 style main_menu_frame is empty
@@ -456,20 +457,33 @@ style main_menu_frame:
     xsize 280
     yfill True
 
-    background "gui/overlay/main_menu.png"
+style main_menu_title_vbox:
+    xalign 0.5
+    yalign 0.35
+    spacing 4
 
-style main_menu_vbox:
-    xalign 1.0
-    xoffset -20
-    xmaximum 800
-    yalign 1.0
-    yoffset -20
+style main_menu_nav_vbox:
+    spacing 10
+
+style main_menu_nav_button is empty:
+    xalign 0.5
+
+style main_menu_nav_button_text:
+    color gui.accent_color
+    size 30
+    bold False
+    hover_color gui.hover_color
+    text_align 0.5
 
 style main_menu_text:
     properties gui.text_properties("main_menu", accent=True)
 
 style main_menu_title:
-    properties gui.text_properties("title")
+    size 96
+    color "#c41e3a"  ## Crimson red — the "blood" in Blood and Servos
+    bold True
+    textalign 0.5
+    layout "subtitle"
 
 style main_menu_version:
     properties gui.text_properties("version")
