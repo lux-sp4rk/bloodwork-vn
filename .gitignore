@@ -225,3 +225,5 @@ traceback.txt
 # Ren'Py SDK - should be installed separately
 vendor/renpy-*/
 errors.txt
+
+.DS_Store

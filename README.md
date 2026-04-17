@@ -16,9 +16,8 @@ A horror visual novel about artificial intelligence, grief, and the price of bri
 
 ## Quick Start
 
-1. Install the [Ren'Py SDK](https://www.renpy.org/).
-2. Add this project folder to the Ren'Py launcher.
-3. Click **Launch Project**.
+1. Install [Ren'Py SDK](https://www.renpy.org/) into the `vendor/` directory.
+2. Run `npm run dev` to launch the game.
 
 *Note: Many assets are currently placeholders. Scenes may appear blank or use generic graphics.*
 

@@ -88,7 +88,7 @@ label stress_crisis_choice:
             "She has to push through.":
                 $ rachel_stress += 20
                 $ withdrawal_turns_since_drink += 2
-                narration """"
+                narration """
                     She steadies herself. Her vision swims.
 
                     The toys seem to move in the corner of her eye.
@@ -113,7 +113,7 @@ label rachel_takes_drink:
         $ rachel_fog = True
     if rachel_dependency >= 75:
         $ rachel_shaky = True
-    narration """"
+    narration """
         Rachel poured a drink. The world went soft at the edges.
         She could breathe again.
     """
@@ -131,7 +131,7 @@ label rachel_takes_drink_critical:
         $ rachel_fog = True
     if rachel_dependency >= 75:
         $ rachel_shaky = True
-    narration """"
+    narration """
         Her hands shook as she poured. She didn't taste it.
         The relief was immediate and chemical and it didn't matter what it cost.
     """
@@ -143,7 +143,7 @@ label rachel_cope_attempt:
         ## Fog state: constructive options gone, only escape options
         menu:
             "Zone out. Disappear into the screen.":
-                narration """"
+                narration """
                     She stared at the phone. Then put it down.
                     Easier to disappear than to be seen failing.
                 """
@@ -151,7 +151,7 @@ label rachel_cope_attempt:
                 $ withdrawal_turns_since_drink += 2
                 jump check_stress_crisis
             "Pick a fight with Maya in her head.":
-                narration """"
+                narration """
                     She rehearsed every sharp thing she'd never say.
                     The anger was easier than the grief.
                 """
@@ -162,7 +162,7 @@ label rachel_cope_attempt:
         ## Mid-dependency: healthy options still there but strained
         menu:
             "Call Maya." if not renpy.seen_label("maya_called_this_session"):
-                narration """"
+                narration """
                     She called Maya. The voice on the other end was warm.
                     Maya did not push. That was enough.
                 """
@@ -170,7 +170,7 @@ label rachel_cope_attempt:
                 $ withdrawal_turns_since_drink += 1
                 jump check_stress_crisis
             "Hold Tommy.":
-                narration """"
+                narration """
                     She held Tommy. The warmth of a living body.
                     He did not ask questions. She loved him for that.
                 """
@@ -178,7 +178,7 @@ label rachel_cope_attempt:
                 $ withdrawal_turns_since_drink += 1
                 jump check_stress_crisis
             "Breathe. Count. Wait.":
-                narration """"
+                narration """
                     She sat down. She breathed. She counted to ten.
                 """
                 $ rachel_stress -= 10
@@ -188,7 +188,7 @@ label rachel_cope_attempt:
         ## Low dependency: full menu of constructive options
         menu:
             "Call Maya." if not renpy.seen_label("maya_called_this_session"):
-                narration """"
+                narration """
                     She called Maya. The voice on the other end was warm.
                     Just that. Just a warm voice.
                 """
@@ -196,7 +196,7 @@ label rachel_cope_attempt:
                 $ withdrawal_turns_since_drink += 1
                 jump check_stress_crisis
             "Hold Tommy.":
-                narration """"
+                narration """
                     She held Tommy until her heartbeat slowed.
                     The warmth of a living body was enough. For now.
                 """
@@ -204,7 +204,7 @@ label rachel_cope_attempt:
                 $ withdrawal_turns_since_drink += 1
                 jump check_stress_crisis
             "Go outside. Get air.":
-                narration """"
+                narration """
                     She stepped onto the porch. The air was cool.
                     For a moment, the world was just air and birdsong.
                 """
@@ -212,19 +212,7 @@ label rachel_cope_attempt:
                 $ withdrawal_turns_since_drink += 1
                 jump check_stress_crisis
             "Breathe. Count. Wait.":
-                narration """"
-                    She sat down. She breathed. She counted to ten.
-                    The world held.
-                """
-                $ rachel_stress -= 15
-                $ withdrawal_turns_since_drink += 1
-                jump check_stress_crisisa living body was enough. For now.
-                """
-                $ rachel_stress -= 15
-                $ withdrawal_turns_since_drink += 1
-                jump check_stress_crisis
-            "Breathe. Count. Wait.":
-                narration """"
+                narration """
                     She sat down. She breathed. She counted to ten.
                     The world held.
                 """
@@ -664,25 +652,25 @@ label act1_tommy_trauma:
 
     ## CHOICE POINT 2: How to handle Tommy's trauma
     menu:
-        "How should I help Tommy get through this night?":
+        "How should I help Tommy get through this night?"
 
-            "Give Tommy sedatives (crushed in milk)":
-                $ sedated_tommy = True
-                $ stayed_awake = False
-                $ rachel_exhaustion -= 20
-                $ rachel_stress += 10
-                call check_stress_crisis
-                r "Just drink this, honey. It'll help you sleep..."
-                "Rachel crushed the pills into Tommy's milk, watching him drink it down."
+        "Give Tommy sedatives (crushed in milk)":
+            $ sedated_tommy = True
+            $ stayed_awake = False
+            $ rachel_exhaustion -= 20
+            $ rachel_stress += 10
+            call check_stress_crisis
+            rachel "Just drink this, honey. It'll help you sleep..."
+            "Rachel crushed the pills into Tommy's milk, watching him drink it down."
 
-            "Stay awake with him all night":
-                $ sedated_tommy = False
-                $ stayed_awake = True
-                $ rachel_exhaustion += 30
-                $ rachel_stress += 10
-                call check_stress_crisis
-                r "It's okay, baby. Mommy's going to stay right here with you."
-                "Rachel settled in for a long, exhausting night..."
+        "Stay awake with him all night":
+            $ sedated_tommy = False
+            $ stayed_awake = True
+            $ rachel_exhaustion += 30
+            $ rachel_stress += 10
+            call check_stress_crisis
+            rachel "It's okay, baby. Mommy's going to stay right here with you."
+            "Rachel settled in for a long, exhausting night..."
 
     ## End of Act 1
     scene black
