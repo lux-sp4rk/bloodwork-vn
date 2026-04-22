@@ -1,4 +1,4 @@
-# Blood and Servos
+# Bloodwork
 
 A horror visual novel about artificial intelligence, grief, and the price of bringing back the dead. Based on the manuscript "Digital Death Dolls."
 

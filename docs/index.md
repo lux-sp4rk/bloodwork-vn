@@ -1,4 +1,4 @@
-# Digital Death Dolls / Blood and Servos
+# Digital Death Dolls / Bloodwork
 
 > Horror visual novel about AI-powered toys that malfunction and attack a grieving mother and her son. Themes: grief, addiction, the price of bringing back the dead.
 

@@ -1,4 +1,4 @@
-## Blood and Servos - Main Script
+## Bloodwork - Main Script
 ## Based on "Digital Death Dolls" manuscript
 ##
 ## This is a kinetic visual novel with limited branching choices
@@ -235,7 +235,7 @@ label start:
     scene black
     with fade
 
-    "Blood and Servos"
+    "Bloodwork"
     "A story about grief, addiction, and the price of bringing back the dead..."
 
     show screen status_screen

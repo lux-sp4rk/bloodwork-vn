@@ -480,7 +480,7 @@ style main_menu_text:
 
 style main_menu_title:
     size 96
-    color "#c41e3a"  ## Crimson red — the "blood" in Blood and Servos
+    color "#c41e3a"  ## Crimson red — the "blood" in Bloodwork
     bold True
     textalign 0.5
     layout "subtitle"
