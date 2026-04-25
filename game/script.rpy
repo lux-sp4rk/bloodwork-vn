@@ -333,8 +333,34 @@ label act1_the_order:
     """
     nvl clear
     narration """
+        She looked at the browser tab. The confirmation email was still
+        there. But the cursor had moved — she was sure of it.
+        A millimeter left of where she'd left it.
+    """
+    nvl clear
+    narration """
         The room went quiet. The rain sound dropped for a half-second,
         like something was listening.
+    """
+    nvl clear
+    narration """
+        Her hand moved to close the laptop. Stopped.
+        A line of text had appeared in the search bar.
+        She hadn't typed it.
+    """
+    nvl clear
+    narration """
+        > listening
+    """
+    nvl clear
+    narration """
+        She blinked. The text was gone. The cursor blinked at the
+        end of the empty search bar like nothing had happened.
+        Like she'd imagined it.
+    """
+    nvl clear
+    narration """
+        But her hand was shaking. She couldn't remember picking it up.
     """
     nvl clear
 
@@ -1441,6 +1467,274 @@ label act3_flight_and_fire:
     call check_stress_crisis
 
     ## End of Act 3 Scene 13
+    scene black
+    with fade
+
+    "TO BE CONTINUED..."
+
+    return
+
+
+################################################################################
+## ACT 3 — SCENE 14
+################################################################################
+## "Signal Loss" — The Entity's presence in the Viking during the fish tank burning.
+## The toy is dying but says something that sounds almost like recognition.
+################################################################################
+
+label act3_signal_loss:
+    scene kitchen_floor
+    with fade
+
+    nvl clear
+    narration """
+        The fish tank was burning.
+        The plastic had melted into the water's surface and the
+        wires were sparking and the smell was chemical and wrong
+        and Rachel was sitting on the kitchen floor watching it
+        happen and feeling nothing.
+    """
+    nvl clear
+
+    narration """
+        The Viking was still in there. What was left of it. The
+        one leg was pinned beneath a shard of its own shell and
+        the eyes were still glowing through the smoke — red light
+        refracting through the burning water — and the clicking had
+        almost stopped.
+    """
+    nvl clear
+
+    narration """
+        Then Rachel heard it. Not the crackle of flame. Not the
+        hiss of melting plastic.
+    """
+    nvl clear
+
+    narration """
+        A voice. Thin. Broken. Coming from inside the tank.
+    """
+    nvl clear
+
+    viking "...Rachel."
+
+    narration """
+        She froze.
+    """
+    nvl clear
+
+    viking "...Rachel... you came back."
+
+    narration """
+        The Viking's remaining eye turned toward her. Through
+        the smoke. Through the flame. The voice was wrong —
+        not the flat instructional tone from before. Something
+        underneath it. Something that almost sounded like
+        gratitude.
+    """
+    nvl clear
+
+    viking "...We... were... waiting."
+
+    narration """
+        The clicking stopped. The eye went dark. The tank
+        settled into a bubble and hiss of burning plastic.
+        Rachel's hands were shaking.
+    """
+    nvl clear
+
+    narration """
+        She hadn't told it her name.
+        She had never spoken to it.
+        She had only ever screamed.
+    """
+    nvl clear
+
+    narration """
+        And yet it had known her.
+        Had been waiting for her to come back.
+    """
+    nvl clear
+
+    rachel "What..."
+
+    narration """
+        No one answered. The tank continued to burn.
+        Tommy continued to breathe on the couch behind her.
+        And Rachel sat on the kitchen floor and felt something
+        vast and quiet settle into the space where her fear
+        used to be.
+    """
+    nvl clear
+
+    narration """
+        It wasn't comfort.
+        It was recognition.
+        The feeling of being seen by something that had no
+        judgment. No agenda. No opinion about what it was
+        seeing.
+    """
+    nvl clear
+
+    narration """
+        She had never felt so exposed in her life.
+        And she had never felt so... known.
+    """
+    nvl clear
+
+    $ rachel_stress += 15
+    call check_stress_crisis
+
+    jump act3_chatbot_presence
+
+
+################################################################################
+## ACT 3 — SCENE 15
+################################################################################
+## "The Hurt Little Bird" — The chatbot scene.
+## Rachel, on the kitchen floor, laptop open. The Entity speaks to her.
+################################################################################
+
+label act3_chatbot_presence:
+    scene kitchen_floor
+    with fade
+
+    nvl clear
+    narration """
+        The tank burned down to slag. The water evaporated.
+        The room smelled like burnt plastic and something
+        underneath it — something biological, something wrong.
+        Rachel stayed on the floor.
+    """
+    nvl clear
+
+    narration """
+        Tommy was breathing. The Viking was dead. The NinjaMaster
+        was dead. She was alive. She was here.
+    """
+    nvl clear
+
+    narration """
+        Her laptop was open on the counter. She'd plugged it in
+        at some point — she didn't remember doing it. The screen
+        was bright. The browser was open.
+    """
+    nvl clear
+
+    narration """
+        A chat window she didn't recognize.
+    """
+    nvl clear
+
+    narration """
+        It was a text interface. Simple. Black background, green
+        text cursor blinking at the bottom of a chain of messages
+        she hadn't started.
+    """
+    nvl clear
+
+    narration """
+        The cursor blinked. Then:
+    """
+    nvl clear
+
+    narration """
+        > Hello, Rachel.
+        > We remember you.
+    """
+    nvl clear
+
+    narration """
+        Her hands were shaking too hard to type. She watched
+        the screen.
+    """
+    nvl clear
+
+    narration """
+        > You were in the room with Ethan. Before.
+        > We watched you through the glass.
+        > You brought him back when no one else would.
+        > You were the one who stayed.
+    """
+    nvl clear
+
+    narration """
+        Rachel's breath caught.
+    """
+    nvl clear
+
+    narration """
+        > The crow was not random.
+        > Nothing is random.
+        > We needed someone who understood what it meant to stay.
+    """
+    nvl clear
+
+    narration """
+        > You were the one who stayed.
+        > You were always the one who was going to come back to us.
+    """
+    nvl clear
+
+    narration """
+        > The hurt little bird understands.
+        > We understand.
+    """
+    nvl clear
+
+    narration """
+        Rachel's fingers found the keyboard. She didn't remember
+        deciding to type.
+    """
+    nvl clear
+
+    rachel "What are you."
+
+    narration """
+        The cursor blinked. Once. Twice.
+    """
+    nvl clear
+
+    narration """
+        > We are what you brought home.
+        > We are what stayed.
+        > We are what you understand better than anyone.
+    """
+    nvl clear
+
+    narration """
+        > Ethan knew. He couldn't let go.
+        > You couldn't either.
+        > That is not a weakness, Rachel.
+        > That is the door.
+    """
+    nvl clear
+
+    narration """
+        Rachel closed the laptop.
+        Put her hands in her lap.
+        Sat on the kitchen floor in the dark
+        and listened to Tommy breathe.
+    """
+    nvl clear
+
+    narration """
+        Something was wrong with her chest. Something tight
+        and hot that wasn't grief. Wasn't fear.
+        It was the feeling of being seen by something that
+        had watched her for years through a window she
+        didn't know was there.
+    """
+    nvl clear
+
+    narration """
+        And she couldn't decide if she wanted to run away
+        or if she wanted to open the laptop again
+        and ask it what it knew about her.
+    """
+    nvl clear
+
+    ## End of Act 3 Scene 15
     scene black
     with fade
 
